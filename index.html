@@ -1,4 +1,531 @@
-const notes = [];
+<!DOCTYPE html>
+<html lang="my">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Football Match Intelligence & Predictor</title>
+  <style>
+    :root {
+      --bg: #080c10;
+      --panel: #101720;
+      --panel-2: #16202c;
+      --border: #233244;
+      --text: #e8eef5;
+      --muted: #8a99ad;
+      --accent: #00e676;
+      --accent-soft: rgba(0, 230, 118, 0.14);
+      --warn: #ffb020;
+      --warn-soft: rgba(255, 176, 32, 0.15);
+      --danger: #ff5252;
+      --danger-soft: rgba(255, 82, 82, 0.15);
+      --info: #40c4ff;
+      --info-soft: rgba(64, 196, 255, 0.14);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.45;
+    }
+
+    header {
+      background: var(--panel);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 1.2rem;
+      color: var(--accent);
+      letter-spacing: 0.2px;
+    }
+
+    .brand p {
+      margin: 2px 0 0;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    select, input[type="text"] {
+      background: var(--panel-2);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 7px 10px;
+      font-size: 0.86rem;
+      outline: none;
+    }
+
+    select:focus, input[type="text"]:focus {
+      border-color: var(--accent);
+    }
+
+    .main-grid {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 16px;
+      display: grid;
+      grid-template-columns: 420px 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    @media (max-width: 1024px) {
+      .main-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .card-header {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel-2);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-header h2 {
+      margin: 0;
+      font-size: 0.98rem;
+    }
+
+    .badge {
+      font-size: 0.74rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-weight: 600;
+      border: 1px solid transparent;
+      white-space: nowrap;
+    }
+
+    .badge-league {
+      background: var(--info-soft);
+      color: var(--info);
+      border-color: rgba(64, 196, 255, 0.3);
+    }
+
+    .badge-cup {
+      background: var(--warn-soft);
+      color: var(--warn);
+      border-color: rgba(255, 176, 32, 0.3);
+    }
+
+    .match-list {
+      max-height: 76vh;
+      overflow-y: auto;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .match-item {
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+    }
+
+    .match-item:hover {
+      border-color: #3b526e;
+    }
+
+    .match-item.active {
+      border-color: var(--accent);
+      background: rgba(0, 230, 118, 0.06);
+    }
+
+    .match-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.76rem;
+      color: var(--muted);
+      margin-bottom: 6px;
+      gap: 6px;
+    }
+
+    .match-teams {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+      font-size: 0.94rem;
+      gap: 8px;
+    }
+
+    .match-vs {
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 500;
+    }
+
+    .match-foot {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 6px;
+      font-size: 0.76rem;
+      color: var(--accent);
+    }
+
+    .detail-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .hero-match {
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+    }
+
+    .hero-top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .hero-teams {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 12px;
+      text-align: center;
+    }
+
+    .team-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    .team-sub {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .score-pill {
+      background: var(--accent-soft);
+      border: 1px solid rgba(0, 230, 118, 0.35);
+      color: var(--accent);
+      padding: 8px 14px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    .prob-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .prob-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .prob-card.top-pick {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .prob-label {
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    .prob-num {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-top: 2px;
+    }
+
+    .reason-box {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: var(--panel);
+      border-left: 3px solid var(--accent);
+      font-size: 0.88rem;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    @media (max-width: 760px) {
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .sub-card {
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px;
+    }
+
+    .sub-card h3 {
+      margin: 0 0 10px;
+      font-size: 0.92rem;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+
+    .stat-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 5px 0;
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.06);
+      font-size: 0.85rem;
+    }
+
+    .stat-row:last-child {
+      border-bottom: none;
+    }
+
+    .muted { color: var(--muted); }
+
+    .form-pills {
+      display: inline-flex;
+      gap: 4px;
+    }
+
+    .f-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+
+    .f-W { background: var(--accent-soft); color: var(--accent); }
+    .f-D { background: var(--warn-soft); color: var(--warn); }
+    .f-L { background: var(--danger-soft); color: var(--danger); }
+
+    .tag-inj {
+      display: inline-block;
+      margin: 2px 4px 2px 0;
+      padding: 2px 7px;
+      border-radius: 6px;
+      font-size: 0.76rem;
+      background: var(--danger-soft);
+      color: var(--danger);
+    }
+
+    .tag-sus {
+      display: inline-block;
+      margin: 2px 4px 2px 0;
+      padding: 2px 7px;
+      border-radius: 6px;
+      font-size: 0.76rem;
+      background: var(--warn-soft);
+      color: var(--warn);
+    }
+
+    .tag-none {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>Football Match Intelligence & Predictor</h1>
+      <p id="statusBar">data.json မှ Real Data ဆွဲယူနေပါသည်...</p>
+    </div>
+    <div class="controls">
+      <select id="compFilter" onchange="renderMatchList()">
+        <option value="ALL">ပြိုင်ပွဲအားလုံး (League + Cup)</option>
+        <option value="League">League ပွဲများသာ</option>
+        <option value="Cup">Cup / ဖလားပွဲများသာ</option>
+      </select>
+      <input id="searchInput" type="text" placeholder="အသင်း (သို့) ပြိုင်ပွဲ ရှာရန်..." oninput="renderMatchList()" />
+    </div>
+  </header>
+
+  <div class="main-grid">
+    <div class="card">
+      <div class="card-header">
+        <h2>၁ လစာ ပွဲစဉ်များ (1-Month Fixtures)</h2>
+        <span id="matchCountBadge" class="badge badge-league">0 Matches</span>
+      </div>
+      <div id="matchList" class="match-list"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h2>Match Analysis & Prediction</h2>
+        <span id="selectedCompBadge" class="badge badge-league">-</span>
+      </div>
+      <div id="detailPanel" class="detail-body"></div>
+    </div>
+  </div>
+
+  <script>
+    let TEAMS_BY_ID = {};
+    let TEAMS_BY_NAME = {};
+    let FIXTURES = [];
+    let selectedMatchId = null;
+
+    function summarizeForm(arr) {
+      let w = 0, d = 0, l = 0;
+      (arr || []).forEach(x => {
+        if (x === "W") w++;
+        else if (x === "D") d++;
+        else if (x === "L") l++;
+      });
+      const pts = w * 3 + d;
+      return { w, d, l, pts };
+    }
+
+    function factorial(n) {
+      let r = 1;
+      for (let i = 2; i <= n; i++) r *= i;
+      return r;
+    }
+
+    function poisson(lambda, k) {
+      return (Math.pow(lambda, k) * Math.exp(-lambda)) / factorial(k);
+    }
+
+    function getTeamData(id, name, compName) {
+      if (id && TEAMS_BY_ID[String(id)]) return TEAMS_BY_ID[String(id)];
+      if (name && TEAMS_BY_NAME[name]) return TEAMS_BY_NAME[name];
+      return {
+        name: name || "Team",
+        leagueName: compName || "Competition",
+        leagueRank: "-",
+        leaguePoints: "-",
+        gfAvg: 1.45,
+        gaAvg: 1.25,
+        last5: [],
+        nextMatch: null,
+        injuries: [],
+        suspensions: []
+      };
+    }
+
+    function predictFixture(match) {
+      const h = getTeamData(match.homeId, match.home, match.competition);
+      const a = getTeamData(match.awayId, match.away, match.competition);
+      const hForm = summarizeForm(h.last5);
+      const aForm = summarizeForm(a.last5);
+
+      const hInj = h.injuries || [];
+      const hSus = h.suspensions || [];
+      const aInj = a.injuries || [];
+      const aSus = a.suspensions || [];
+
+      const hUnavail = [...hInj, ...hSus].reduce((s, p) => s + (p.impact || 0.06), 0);
+      const aUnavail = [...aInj, ...aSus].reduce((s, p) => s + (p.impact || 0.06), 0);
+
+      const hRankNum = typeof h.leagueRank === "number" && h.leagueRank > 0 ? h.leagueRank : 10;
+      const aRankNum = typeof a.leagueRank === "number" && a.leagueRank > 0 ? a.leagueRank : 10;
+      const rankDiff = Math.max(-0.25, Math.min(0.25, (aRankNum - hRankNum) * 0.015));
+
+      const hMaxPts = Math.max(1, (hForm.w + hForm.d + hForm.l) * 3);
+      const aMaxPts = Math.max(1, (aForm.w + aForm.d + aForm.l) * 3);
+      const hFormRatio = hForm.pts / hMaxPts;
+      const aFormRatio = aForm.pts / aMaxPts;
+      const formDiff = (hFormRatio - aFormRatio) * 0.16;
+
+      const hAttackMod = Math.max(0.65, 1 + formDiff + rankDiff - hUnavail * 0.7);
+      const hDefMod = Math.max(0.70, 1 + hUnavail * 0.5);
+
+      const aAttackMod = Math.max(0.65, 1 - formDiff - rankDiff - aUnavail * 0.7);
+      const aDefMod = Math.max(0.70, 1 + aUnavail * 0.5);
+
+      const homeAdv = match.type === "Cup" ? 1.06 : 1.12;
+      const avg = 1.45;
+      const hGf = h.gfAvg || avg;
+      const hGa = h.gaAvg || avg;
+      const aGf = a.gfAvg || avg;
+      const aGa = a.gaAvg || avg;
+
+      const lambdaH = Math.max(0.2, (hGf / avg) * (aGa / avg) * avg * homeAdv * hAttackMod * aDefMod);
+      const lambdaA = Math.max(0.2, (aGf / avg) * (hGa / avg) * avg * aAttackMod * hDefMod);
+
+      let pHome = 0, pDraw = 0, pAway = 0;
+      let bestScore = { hg: 1, ag: 1, p: -1 };
+
+      for (let hg = 0; hg <= 6; hg++) {
+        for (let ag = 0; ag <= 6; ag++) {
+          const prob = poisson(lambdaH, hg) * poisson(lambdaA, ag);
+          if (hg > ag) pHome += prob;
+          else if (hg === ag) pDraw += prob;
+          else pAway += prob;
+
+          if (prob > bestScore.p) {
+            bestScore = { hg, ag, p: prob };
+          }
+        }
+      }
+
+      const sum = pHome + pDraw + pAway || 1;
+      const homePct = (pHome / sum) * 100;
+      const drawPct = (pDraw / sum) * 100;
+      const awayPct = (pAway / sum) * 100;
+
+      let verdict = "";
+      if (homePct >= awayPct && homePct >= drawPct) {
+        verdict = `${match.home} နိုင်ခြေ အများဆုံး (${homePct.toFixed(1)}%)`;
+      } else if (awayPct >= homePct && awayPct >= drawPct) {
+        verdict = `${match.away} နိုင်ခြေ အများဆုံး (${awayPct.toFixed(1)}%)`;
+      } else {
+        verdict = `သရေ (Draw) ဖြစ်နိုင်ခြေ အများဆုံး (${drawPct.toFixed(1)}%)`;
+      }
+
+      const notes = [];
       const totalFormGames = hForm.w + hForm.d + hForm.l;
       const totalAwayFormGames = aForm.w + aForm.d + aForm.l;
 
@@ -19,3 +546,241 @@ const notes = [];
       const hNextText = h.nextMatch ? `${h.nextMatch.opponent} (${h.nextMatch.comp}, ${h.nextMatch.date})` : "Upcoming match မရှိသေးပါ";
       const aNextText = a.nextMatch ? `${a.nextMatch.opponent} (${a.nextMatch.comp}, ${a.nextMatch.date})` : "Upcoming match မရှိသေးပါ";
       notes.push(`နောက်ပွဲ: ${match.home} → ${hNextText} | ${match.away} → ${aNextText}`);
+
+      return {
+        homePct: homePct.toFixed(1),
+        drawPct: drawPct.toFixed(1),
+        awayPct: awayPct.toFixed(1),
+        lambdaH: lambdaH.toFixed(2),
+        lambdaA: lambdaA.toFixed(2),
+        bestScore,
+        verdict,
+        notes,
+        hForm,
+        aForm,
+        h,
+        a
+      };
+    }
+
+    function formatDateTime(utcStr) {
+      if (!utcStr) return "-";
+      const d = new Date(utcStr);
+      if (isNaN(d.getTime())) return utcStr.slice(0, 10);
+      return d.toLocaleString("en-GB", { month: "short", day: "2-digit", hour: "2-digit", minute: "2-digit" });
+    }
+
+    function getFilteredFixtures() {
+      const typeVal = document.getElementById("compFilter").value;
+      const q = document.getElementById("searchInput").value.trim().toLowerCase();
+      return FIXTURES.filter(m => {
+        const typeOk = typeVal === "ALL" || m.type === typeVal;
+        const textOk = !q ||
+          (m.home || "").toLowerCase().includes(q) ||
+          (m.away || "").toLowerCase().includes(q) ||
+          (m.competition || "").toLowerCase().includes(q);
+        return typeOk && textOk;
+      });
+    }
+
+    function renderMatchList() {
+      const listEl = document.getElementById("matchList");
+      const filtered = getFilteredFixtures();
+      document.getElementById("matchCountBadge").textContent = `${filtered.length} Matches`;
+
+      if (!filtered.length) {
+        listEl.innerHTML = `<div class="muted" style="padding:14px;">ရှာဖွေမှုနှင့် ကိုက်ညီသော ပွဲစဉ် မရှိပါ။</div>`;
+        document.getElementById("detailPanel").innerHTML = `<div class="muted">ပြသရန် ပွဲစဉ် မရှိပါ။</div>`;
+        return;
+      }
+
+      if (!filtered.some(m => m.id === selectedMatchId)) {
+        selectedMatchId = filtered[0].id;
+      }
+
+      listEl.innerHTML = filtered.map(m => {
+        const pred = predictFixture(m);
+        const activeClass = m.id === selectedMatchId ? "active" : "";
+        const badgeClass = m.type === "Cup" ? "badge-cup" : "badge-league";
+        return `
+          <div class="match-item ${activeClass}" onclick="selectMatch('${m.id}')">
+            <div class="match-meta">
+              <span>${formatDateTime(m.utcDate)}</span>
+              <span class="badge ${badgeClass}">${m.competition}</span>
+            </div>
+            <div class="match-teams">
+              <span>${m.home}</span>
+              <span class="match-vs">vs</span>
+              <span>${m.away}</span>
+            </div>
+            <div class="match-foot">
+              <span>Est: ${pred.bestScore.hg} - ${pred.bestScore.ag}</span>
+              <span>${m.home} ${pred.homePct}% | D ${pred.drawPct}% | ${m.away} ${pred.awayPct}%</span>
+            </div>
+          </div>
+        `;
+      }).join("");
+
+      renderDetail();
+    }
+
+    function selectMatch(id) {
+      selectedMatchId = id;
+      renderMatchList();
+    }
+
+    function renderFormPills(arr) {
+      if (!arr || !arr.length) return `<span class="muted">Form data မရှိသေးပါ</span>`;
+      return `<span class="form-pills">${arr.map(x => `<span class="f-pill f-${x}">${x}</span>`).join("")}</span>`;
+    }
+
+    function renderUnavailable(teamObj) {
+      const inj = (teamObj.injuries || []).map(p => `<span class="tag-inj">Injury: ${p.name || p}</span>`).join("");
+      const sus = (teamObj.suspensions || []).map(p => `<span class="tag-sus">Ban: ${p.name || p}</span>`).join("");
+      if (!inj && !sus) return `<span class="tag-none">ဒဏ်ရာ / ပွဲပယ် မရှိပါ (သို့မဟုတ် API တွင် မပါဝင်ပါ)</span>`;
+      return inj + sus;
+    }
+
+    function renderDetail() {
+      const match = FIXTURES.find(m => m.id === selectedMatchId);
+      if (!match) return;
+
+      const pred = predictFixture(match);
+      const h = pred.h;
+      const a = pred.a;
+
+      const badge = document.getElementById("selectedCompBadge");
+      badge.textContent = `${match.competition} (${match.type})`;
+      badge.className = `badge ${match.type === "Cup" ? "badge-cup" : "badge-league"}`;
+
+      const hTop = parseFloat(pred.homePct) >= parseFloat(pred.awayPct) && parseFloat(pred.homePct) >= parseFloat(pred.drawPct);
+      const dTop = !hTop && parseFloat(pred.drawPct) >= parseFloat(pred.awayPct) && parseFloat(pred.drawPct) >= parseFloat(pred.homePct);
+      const aTop = !hTop && !dTop;
+
+      const hNext = h.nextMatch ? `<strong>${h.nextMatch.date}</strong> vs ${h.nextMatch.opponent} (${h.nextMatch.comp}, ${h.nextMatch.venue})` : `<span class="muted">Upcoming match မရှိသေးပါ</span>`;
+      const aNext = a.nextMatch ? `<strong>${a.nextMatch.date}</strong> vs ${a.nextMatch.opponent} (${a.nextMatch.comp}, ${a.nextMatch.venue})` : `<span class="muted">Upcoming match မရှိသေးပါ</span>`;
+
+      document.getElementById("detailPanel").innerHTML = `
+        <div class="hero-match">
+          <div class="hero-top">
+            <span class="muted">${formatDateTime(match.utcDate)} • ${match.competition} • ${match.status || "SCHEDULED"}</span>
+            <span class="badge ${match.type === "Cup" ? "badge-cup" : "badge-league"}">${match.type} Match</span>
+          </div>
+          <div class="hero-teams">
+            <div>
+              <div class="team-title">${match.home}</div>
+              <div class="team-sub">Home • Rank #${h.leagueRank} (${h.leaguePoints} pts)</div>
+            </div>
+            <div class="score-pill">
+              ခန့်မှန်းဂိုး: ${pred.bestScore.hg} - ${pred.bestScore.ag}
+              <div style="font-size:0.72rem; font-weight:500; color:var(--muted);">xG: ${pred.lambdaH} - ${pred.lambdaA}</div>
+            </div>
+            <div>
+              <div class="team-title">${match.away}</div>
+              <div class="team-sub">Away • Rank #${a.leagueRank} (${a.leaguePoints} pts)</div>
+            </div>
+          </div>
+
+          <div class="prob-grid">
+            <div class="prob-card ${hTop ? "top-pick" : ""}">
+              <div class="prob-label">${match.home} Win</div>
+              <div class="prob-num">${pred.homePct}%</div>
+            </div>
+            <div class="prob-card ${dTop ? "top-pick" : ""}">
+              <div class="prob-label">Draw (သရေ)</div>
+              <div class="prob-num">${pred.drawPct}%</div>
+            </div>
+            <div class="prob-card ${aTop ? "top-pick" : ""}">
+              <div class="prob-label">${match.away} Win</div>
+              <div class="prob-num">${pred.awayPct}%</div>
+            </div>
+          </div>
+
+          <div class="reason-box">
+            <strong>သုံးသပ်ချက် — ${pred.verdict}:</strong>
+            <ul style="margin:6px 0 0; padding-left:18px;">
+              ${pred.notes.map(n => `<li>${n}</li>`).join("")}
+            </ul>
+          </div>
+        </div>
+
+        <div class="two-col">
+          <div class="sub-card">
+            <h3>${match.home} — Team Intelligence</h3>
+            <div class="stat-row">
+              <span class="muted">Last 5 Form</span>
+              <span>${renderFormPills(h.last5)} <strong>(${pred.hForm.w}W ${pred.hForm.d}D ${pred.hForm.l}L)</strong></span>
+            </div>
+            <div class="stat-row">
+              <span class="muted">League / Standings</span>
+              <span>${h.leagueName || "-"} • <strong>#${h.leagueRank}</strong> (${h.leaguePoints} pts)</span>
+            </div>
+            <div class="stat-row">
+              <span class="muted">Avg GF / GA</span>
+              <span>${h.gfAvg ?? "-"} / ${h.gaAvg ?? "-"}</span>
+            </div>
+            <div class="stat-row">
+              <span class="muted">Next Fixture</span>
+              <span>${hNext}</span>
+            </div>
+            <div class="stat-row">
+              <span class="muted">Injuries / Bans</span>
+              <span>${renderUnavailable(h)}</span>
+            </div>
+          </div>
+
+          <div class="sub-card">
+            <h3>${match.away} — Team Intelligence</h3>
+            <div class="stat-row">
+              <span class="muted">Last 5 Form</span>
+              <span>${renderFormPills(a.last5)} <strong>(${pred.aForm.w}W ${pred.aForm.d}D ${pred.aForm.l}L)</strong></span>
+            </div>
+            <div class="stat-row">
+              <span class="muted">League / Standings</span>
+              <span>${a.leagueName || "-"} • <strong>#${a.leagueRank}</strong> (${a.leaguePoints} pts)</span>
+            </div>
+            <div class="stat-row">
+              <span class="muted">Avg GF / GA</span>
+              <span>${a.gfAvg ?? "-"} / ${a.gaAvg ?? "-"}</span>
+            </div>
+            <div class="stat-row">
+              <span class="muted">Next Fixture</span>
+              <span>${aNext}</span>
+            </div>
+            <div class="stat-row">
+              <span class="muted">Injuries / Bans</span>
+              <span>${renderUnavailable(a)}</span>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    async function initApp() {
+      try {
+        const res = await fetch(`./data.json?t=${Date.now()}`);
+        if (!res.ok) throw new Error("data.json not found yet");
+        const data = await res.json();
+        TEAMS_BY_ID = data.teams || {};
+        FIXTURES = data.matches || [];
+
+        TEAMS_BY_NAME = {};
+        Object.values(TEAMS_BY_ID).forEach(t => {
+          if (t && t.name) TEAMS_BY_NAME[t.name] = t;
+        });
+
+        const updatedLabel = data.updatedAt ? new Date(data.updatedAt).toLocaleString() : "Auto Sync";
+        document.getElementById("statusBar").textContent =
+          `Live Auto Data (data.json) • Last Sync: ${updatedLabel} • ${FIXTURES.length} Matches`;
+      } catch (err) {
+        document.getElementById("statusBar").textContent =
+          `data.json မထွက်သေးပါ (Actions ကို Run လိုက်ရင် Real Data Auto တက်လာပါမည်)`;
+        FIXTURES = [];
+      }
+      renderMatchList();
+    }
+
+    initApp();
+  </script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T10:44:55.957393+00:00",
+  "updatedAt": "2026-11-27T10:58:54.663812+00:00",
   "dateRange": {
     "from": "2026-11-24",
     "to": "2026-12-27"
@@ -42,6 +42,7 @@
       "gfAvg": 2.36,
       "gaAvg": 0.82,
       "last5": [
+        "W",
         "L",
         "W",
         "W",
@@ -122,6 +123,7 @@
         "W",
         "W",
         "W",
+        "W",
         "W"
       ],
       "nextMatch": {
@@ -144,6 +146,7 @@
       "gfAvg": 1.82,
       "gaAvg": 1.0,
       "last5": [
+        "L",
         "D",
         "W",
         "L",
@@ -170,6 +173,7 @@
       "gaAvg": 0.82,
       "last5": [
         "D",
+        "D",
         "L",
         "W",
         "W"
@@ -194,6 +198,7 @@
       "gfAvg": 1.82,
       "gaAvg": 1.82,
       "last5": [
+        "W",
         "L",
         "W",
         "L",
@@ -219,6 +224,7 @@
       "gfAvg": 1.09,
       "gaAvg": 1.27,
       "last5": [
+        "L",
         "L",
         "W",
         "W",
@@ -246,6 +252,7 @@
       "last5": [
         "W",
         "W",
+        "W",
         "L",
         "W"
       ],
@@ -269,6 +276,7 @@
       "gfAvg": 1.18,
       "gaAvg": 1.0,
       "last5": [
+        "L",
         "D",
         "D",
         "L",
@@ -320,6 +328,7 @@
       "gfAvg": 1.36,
       "gaAvg": 1.64,
       "last5": [
+        "L",
         "W",
         "L",
         "D",
@@ -346,6 +355,7 @@
       "gaAvg": 1.91,
       "last5": [
         "L",
+        "L",
         "W",
         "L",
         "W"
@@ -371,6 +381,7 @@
       "gaAvg": 1.18,
       "last5": [
         "W",
+        "W",
         "D",
         "D",
         "D"
@@ -395,6 +406,7 @@
       "gfAvg": 1.36,
       "gaAvg": 2.0,
       "last5": [
+        "L",
         "D",
         "D",
         "L",
@@ -420,6 +432,7 @@
       "gfAvg": 0.82,
       "gaAvg": 1.36,
       "last5": [
+        "L",
         "D",
         "L",
         "W",
@@ -445,6 +458,7 @@
       "gfAvg": 0.73,
       "gaAvg": 1.55,
       "last5": [
+        "L",
         "D",
         "L",
         "W",
@@ -499,6 +513,7 @@
         "L",
         "L",
         "L",
+        "L",
         "L"
       ],
       "nextMatch": {
@@ -548,13 +563,16 @@
       "gaAvg": 1.09,
       "last5": [
         "W",
+        "W",
+        "W",
+        "W",
         "D"
       ],
       "nextMatch": {
-        "date": "2026-12-08",
-        "opponent": "Aston Villa",
-        "comp": "UEFA Champions League",
-        "venue": "Away"
+        "date": "2026-11-28",
+        "opponent": "Lorient",
+        "comp": "Ligue 1",
+        "venue": "Home"
       },
       "injuries": [],
       "suspensions": []
@@ -649,6 +667,8 @@
       "gaAvg": 1.2,
       "last5": [
         "W",
+        "L",
+        "W",
         "D"
       ],
       "nextMatch": {
@@ -724,6 +744,8 @@
       "gaAvg": 2.0,
       "last5": [
         "W",
+        "W",
+        "W",
         "L"
       ],
       "nextMatch": {
@@ -746,6 +768,8 @@
       "gfAvg": 1.8,
       "gaAvg": 1.8,
       "last5": [
+        "L",
+        "W",
         "W",
         "W"
       ],
@@ -795,6 +819,8 @@
       "gfAvg": 1.4,
       "gaAvg": 2.2,
       "last5": [
+        "L",
+        "D",
         "W",
         "W"
       ],
@@ -870,6 +896,8 @@
       "gfAvg": 1.0,
       "gaAvg": 1.8,
       "last5": [
+        "W",
+        "L",
         "D",
         "W"
       ],
@@ -893,6 +921,8 @@
       "gfAvg": 2.0,
       "gaAvg": 2.0,
       "last5": [
+        "L",
+        "W",
         "W",
         "L"
       ],
@@ -916,6 +946,8 @@
       "gfAvg": 1.4,
       "gaAvg": 1.4,
       "last5": [
+        "L",
+        "L",
         "W",
         "W"
       ],
@@ -1017,6 +1049,8 @@
       "gfAvg": 0.8,
       "gaAvg": 1.0,
       "last5": [
+        "W",
+        "L",
         "L",
         "L"
       ],
@@ -1040,6 +1074,8 @@
       "gfAvg": 1.8,
       "gaAvg": 2.4,
       "last5": [
+        "D",
+        "L",
         "W",
         "L"
       ],
@@ -1089,13 +1125,16 @@
       "gfAvg": 1.27,
       "gaAvg": 0.73,
       "last5": [
+        "W",
         "D",
+        "W",
+        "L",
         "W"
       ],
       "nextMatch": {
-        "date": "2026-12-09",
-        "opponent": "Stuttgart",
-        "comp": "UEFA Champions League",
+        "date": "2026-11-28",
+        "opponent": "Le Mans",
+        "comp": "Ligue 1",
         "venue": "Away"
       },
       "injuries": [],
@@ -1112,6 +1151,8 @@
       "gfAvg": 0.8,
       "gaAvg": 1.8,
       "last5": [
+        "L",
+        "W",
         "L",
         "L"
       ],
@@ -1136,6 +1177,8 @@
       "gaAvg": 2.4,
       "last5": [
         "L",
+        "L",
+        "L",
         "L"
       ],
       "nextMatch": {
@@ -1158,6 +1201,8 @@
       "gfAvg": 0.8,
       "gaAvg": 2.4,
       "last5": [
+        "W",
+        "L",
         "L",
         "L"
       ],
@@ -1181,6 +1226,8 @@
       "gfAvg": 1.0,
       "gaAvg": 2.8,
       "last5": [
+        "W",
+        "L",
         "L",
         "L"
       ],
@@ -1205,13 +1252,16 @@
       "gaAvg": 1.45,
       "last5": [
         "L",
+        "L",
+        "L",
+        "D",
         "L"
       ],
       "nextMatch": {
-        "date": "2026-12-09",
-        "opponent": "Bodø/Glimt",
-        "comp": "UEFA Champions League",
-        "venue": "Home"
+        "date": "2026-11-28",
+        "opponent": "Angers SCO",
+        "comp": "Ligue 1",
+        "venue": "Away"
       },
       "injuries": [],
       "suspensions": []
@@ -1227,6 +1277,8 @@
       "gfAvg": 1.0,
       "gaAvg": 2.0,
       "last5": [
+        "L",
+        "D",
         "L",
         "L"
       ],
@@ -1251,6 +1303,8 @@
       "gaAvg": 3.8,
       "last5": [
         "L",
+        "L",
+        "L",
         "L"
       ],
       "nextMatch": {
@@ -1273,6 +1327,7 @@
       "gfAvg": 1.77,
       "gaAvg": 1.77,
       "last5": [
+        "W",
         "W",
         "L",
         "W",
@@ -1298,6 +1353,7 @@
       "gfAvg": 1.38,
       "gaAvg": 1.54,
       "last5": [
+        "L",
         "W",
         "L",
         "D",
@@ -1323,6 +1379,7 @@
       "gfAvg": 1.54,
       "gaAvg": 2.46,
       "last5": [
+        "L",
         "W",
         "L",
         "W",
@@ -1348,6 +1405,7 @@
       "gfAvg": 1.25,
       "gaAvg": 1.0,
       "last5": [
+        "L",
         "W",
         "W",
         "D",
@@ -1373,6 +1431,7 @@
       "gfAvg": 1.38,
       "gaAvg": 1.38,
       "last5": [
+        "L",
         "D",
         "L",
         "D",
@@ -1399,6 +1458,7 @@
       "gaAvg": 1.08,
       "last5": [
         "L",
+        "L",
         "W",
         "D",
         "W"
@@ -1423,6 +1483,7 @@
       "gfAvg": 1.23,
       "gaAvg": 1.31,
       "last5": [
+        "D",
         "L",
         "W",
         "D",
@@ -1448,6 +1509,7 @@
       "gfAvg": 1.0,
       "gaAvg": 1.77,
       "last5": [
+        "W",
         "L",
         "L",
         "D",
@@ -1473,6 +1535,7 @@
       "gfAvg": 0.85,
       "gaAvg": 0.92,
       "last5": [
+        "W",
         "D",
         "L",
         "D",
@@ -1498,6 +1561,7 @@
       "gfAvg": 1.31,
       "gaAvg": 1.69,
       "last5": [
+        "W",
         "L",
         "L",
         "D",
@@ -1523,6 +1587,7 @@
       "gfAvg": 1.25,
       "gaAvg": 1.83,
       "last5": [
+        "D",
         "L",
         "W",
         "L",
@@ -1548,6 +1613,7 @@
       "gfAvg": 0.69,
       "gaAvg": 1.54,
       "last5": [
+        "D",
         "L",
         "W",
         "L",
@@ -1573,6 +1639,7 @@
       "gfAvg": 0.62,
       "gaAvg": 1.62,
       "last5": [
+        "D",
         "L",
         "W",
         "L",
@@ -1598,6 +1665,7 @@
       "gfAvg": 1.15,
       "gaAvg": 1.62,
       "last5": [
+        "D",
         "W",
         "L",
         "L",
@@ -1623,6 +1691,7 @@
       "gfAvg": 0.69,
       "gaAvg": 1.85,
       "last5": [
+        "L",
         "D",
         "L",
         "L",
@@ -1649,6 +1718,7 @@
       "gaAvg": 1.0,
       "last5": [
         "L",
+        "L",
         "W",
         "W",
         "W"
@@ -1673,6 +1743,7 @@
       "gfAvg": 2.4,
       "gaAvg": 1.7,
       "last5": [
+        "W",
         "L",
         "L",
         "W",
@@ -1698,6 +1769,7 @@
       "gfAvg": 2.1,
       "gaAvg": 1.5,
       "last5": [
+        "D",
         "W",
         "W",
         "L",
@@ -1723,6 +1795,7 @@
       "gfAvg": 1.6,
       "gaAvg": 2.0,
       "last5": [
+        "W",
         "L",
         "W",
         "D",
@@ -1748,6 +1821,7 @@
       "gfAvg": 1.7,
       "gaAvg": 1.9,
       "last5": [
+        "W",
         "L",
         "W",
         "L",
@@ -1773,6 +1847,7 @@
       "gfAvg": 2.3,
       "gaAvg": 2.1,
       "last5": [
+        "L",
         "D",
         "L",
         "L",
@@ -1799,6 +1874,7 @@
       "gaAvg": 1.8,
       "last5": [
         "W",
+        "W",
         "L",
         "W",
         "L"
@@ -1823,6 +1899,7 @@
       "gfAvg": 1.0,
       "gaAvg": 2.4,
       "last5": [
+        "W",
         "L",
         "L",
         "W",
@@ -1848,6 +1925,7 @@
       "gfAvg": 1.9,
       "gaAvg": 2.2,
       "last5": [
+        "W",
         "L",
         "L",
         "L",
@@ -1873,6 +1951,7 @@
       "gfAvg": 1.1,
       "gaAvg": 1.5,
       "last5": [
+        "L",
         "D",
         "D",
         "L",
@@ -1898,6 +1977,7 @@
       "gfAvg": 0.8,
       "gaAvg": 1.5,
       "last5": [
+        "D",
         "W",
         "D",
         "D",
@@ -1923,6 +2003,7 @@
       "gfAvg": 0.5,
       "gaAvg": 1.1,
       "last5": [
+        "L",
         "D",
         "L",
         "L",
@@ -1950,6 +2031,7 @@
       "last5": [
         "D",
         "D",
+        "D",
         "L",
         "L"
       ],
@@ -1973,6 +2055,7 @@
       "gfAvg": 1.2,
       "gaAvg": 2.6,
       "last5": [
+        "L",
         "W",
         "D",
         "L",
@@ -2413,8 +2496,19 @@
       "played": 11,
       "gfAvg": 1.91,
       "gaAvg": 0.91,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "W",
+        "L",
+        "W",
+        "W",
+        "W"
+      ],
+      "nextMatch": {
+        "date": "2026-11-27",
+        "opponent": "Brest",
+        "comp": "Ligue 1",
+        "venue": "Away"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2428,8 +2522,19 @@
       "played": 11,
       "gfAvg": 1.45,
       "gaAvg": 0.82,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "W",
+        "L",
+        "W",
+        "L",
+        "W"
+      ],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Monaco",
+        "comp": "Ligue 1",
+        "venue": "Home"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2443,8 +2548,19 @@
       "played": 11,
       "gfAvg": 2.18,
       "gaAvg": 1.55,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "L"
+      ],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Auxerre",
+        "comp": "Ligue 1",
+        "venue": "Away"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2458,8 +2574,19 @@
       "played": 11,
       "gfAvg": 1.73,
       "gaAvg": 1.09,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "D",
+        "L",
+        "W",
+        "W",
+        "W"
+      ],
+      "nextMatch": {
+        "date": "2026-11-27",
+        "opponent": "Paris FC",
+        "comp": "Ligue 1",
+        "venue": "Home"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2473,8 +2600,19 @@
       "played": 11,
       "gfAvg": 1.55,
       "gaAvg": 1.36,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "L",
+        "W",
+        "W",
+        "W",
+        "L"
+      ],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Troyes",
+        "comp": "Ligue 1",
+        "venue": "Home"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2488,8 +2626,19 @@
       "played": 11,
       "gfAvg": 1.27,
       "gaAvg": 1.09,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "L",
+        "D",
+        "L",
+        "D",
+        "D"
+      ],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Olympique Lyon",
+        "comp": "Ligue 1",
+        "venue": "Away"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2503,8 +2652,19 @@
       "played": 11,
       "gfAvg": 2.0,
       "gaAvg": 2.0,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "L",
+        "W",
+        "L",
+        "L",
+        "D"
+      ],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Toulouse",
+        "comp": "Ligue 1",
+        "venue": "Away"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2518,8 +2678,19 @@
       "played": 11,
       "gfAvg": 0.91,
       "gaAvg": 0.82,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "W",
+        "D",
+        "L",
+        "W",
+        "D"
+      ],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "PSG",
+        "comp": "Ligue 1",
+        "venue": "Away"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2533,8 +2704,19 @@
       "played": 11,
       "gfAvg": 1.45,
       "gaAvg": 1.36,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "W",
+        "D",
+        "L",
+        "W",
+        "D"
+      ],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Stade Rennais",
+        "comp": "Ligue 1",
+        "venue": "Home"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2548,8 +2730,19 @@
       "played": 11,
       "gfAvg": 1.36,
       "gaAvg": 1.91,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "L",
+        "D",
+        "L",
+        "D",
+        "W"
+      ],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Lille",
+        "comp": "Ligue 1",
+        "venue": "Home"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2563,8 +2756,19 @@
       "played": 11,
       "gfAvg": 0.91,
       "gaAvg": 1.64,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "L",
+        "D",
+        "W",
+        "L",
+        "W"
+      ],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Nice",
+        "comp": "Ligue 1",
+        "venue": "Away"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2578,8 +2782,19 @@
       "played": 11,
       "gfAvg": 1.27,
       "gaAvg": 2.27,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "W",
+        "D",
+        "L",
+        "L",
+        "D"
+      ],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Marseille",
+        "comp": "Ligue 1",
+        "venue": "Home"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2593,8 +2808,19 @@
       "played": 11,
       "gfAvg": 1.64,
       "gaAvg": 2.09,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "L",
+        "L",
+        "W",
+        "L",
+        "L"
+      ],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Le Havre",
+        "comp": "Ligue 1",
+        "venue": "Away"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2608,8 +2834,19 @@
       "played": 11,
       "gfAvg": 0.82,
       "gaAvg": 2.09,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "L",
+        "D",
+        "L",
+        "L",
+        "L"
+      ],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "RC Lens",
+        "comp": "Ligue 1",
+        "venue": "Home"
+      },
       "injuries": [],
       "suspensions": []
     },
@@ -2623,8 +2860,19 @@
       "played": 11,
       "gfAvg": 0.91,
       "gaAvg": 2.27,
-      "last5": [],
-      "nextMatch": null,
+      "last5": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Strasbourg",
+        "comp": "Ligue 1",
+        "venue": "Home"
+      },
       "injuries": [],
       "suspensions": []
     }
@@ -2951,6 +3199,22 @@
       }
     },
     {
+      "id": "559616",
+      "utcDate": "2026-11-27T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "512",
+      "home": "Brest",
+      "awayId": "1045",
+      "away": "Paris FC",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
       "id": "560658",
       "utcDate": "2026-11-27T20:00:00Z",
       "status": "TIMED",
@@ -3127,6 +3391,22 @@
       }
     },
     {
+      "id": "559612",
+      "utcDate": "2026-11-28T16:15:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "532",
+      "home": "Angers SCO",
+      "awayId": "546",
+      "away": "RC Lens",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
       "id": "558514",
       "utcDate": "2026-11-28T17:00:00Z",
       "status": "TIMED",
@@ -3207,6 +3487,70 @@
       }
     },
     {
+      "id": "559617",
+      "utcDate": "2026-11-28T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "535",
+      "home": "Le Mans",
+      "awayId": "521",
+      "away": "Lille",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559620",
+      "utcDate": "2026-11-28T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "522",
+      "home": "Nice",
+      "awayId": "531",
+      "away": "Troyes",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559613",
+      "utcDate": "2026-11-28T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "533",
+      "home": "Le Havre",
+      "awayId": "576",
+      "away": "Strasbourg",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559614",
+      "utcDate": "2026-11-28T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "524",
+      "home": "PSG",
+      "awayId": "525",
+      "away": "Lorient",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
       "id": "564762",
       "utcDate": "2026-11-28T20:00:00Z",
       "status": "TIMED",
@@ -3281,6 +3625,22 @@
       "home": "Sassuolo",
       "awayId": "113",
       "away": "Napoli",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559619",
+      "utcDate": "2026-11-29T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "519",
+      "home": "Auxerre",
+      "awayId": "516",
+      "away": "Marseille",
       "score": {
         "home": null,
         "away": null
@@ -3383,6 +3743,22 @@
       }
     },
     {
+      "id": "559618",
+      "utcDate": "2026-11-29T16:15:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "511",
+      "home": "Toulouse",
+      "awayId": "529",
+      "away": "Stade Rennais",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
       "id": "560654",
       "utcDate": "2026-11-29T16:30:00Z",
       "status": "TIMED",
@@ -3473,6 +3849,22 @@
       "home": "Como 1907",
       "awayId": "109",
       "away": "Juventus",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559615",
+      "utcDate": "2026-11-29T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "523",
+      "home": "Olympique Lyon",
+      "awayId": "548",
+      "away": "Monaco",
       "score": {
         "home": null,
         "away": null
@@ -3767,6 +4159,22 @@
       }
     },
     {
+      "id": "559609",
+      "utcDate": "2026-12-04T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "511",
+      "home": "Toulouse",
+      "awayId": "524",
+      "away": "PSG",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
       "id": "564770",
       "utcDate": "2026-12-04T20:00:00Z",
       "status": "TIMED",
@@ -3991,6 +4399,22 @@
       }
     },
     {
+      "id": "559606",
+      "utcDate": "2026-12-05T16:15:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "521",
+      "home": "Lille",
+      "awayId": "519",
+      "away": "Auxerre",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
       "id": "558501",
       "utcDate": "2026-12-05T17:00:00Z",
       "status": "TIMED",
@@ -4065,6 +4489,70 @@
       "home": "Napoli",
       "awayId": "5890",
       "away": "Lecce",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559604",
+      "utcDate": "2026-12-05T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "548",
+      "home": "Monaco",
+      "awayId": "532",
+      "away": "Angers SCO",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559605",
+      "utcDate": "2026-12-05T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "546",
+      "home": "RC Lens",
+      "awayId": "533",
+      "away": "Le Havre",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559610",
+      "utcDate": "2026-12-05T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "576",
+      "home": "Strasbourg",
+      "awayId": "525",
+      "away": "Lorient",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559611",
+      "utcDate": "2026-12-05T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "1045",
+      "home": "Paris FC",
+      "awayId": "535",
+      "away": "Le Mans",
       "score": {
         "home": null,
         "away": null
@@ -4183,6 +4671,22 @@
       }
     },
     {
+      "id": "559603",
+      "utcDate": "2026-12-06T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "531",
+      "home": "Troyes",
+      "awayId": "523",
+      "away": "Olympique Lyon",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
       "id": "565876",
       "utcDate": "2026-12-06T14:30:00Z",
       "status": "TIMED",
@@ -4209,6 +4713,22 @@
       "home": "Athletic",
       "awayId": "86",
       "away": "Real Madrid",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559608",
+      "utcDate": "2026-12-06T16:15:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "529",
+      "home": "Stade Rennais",
+      "awayId": "512",
+      "away": "Brest",
       "score": {
         "home": null,
         "away": null
@@ -4289,6 +4809,22 @@
       "home": "Milan",
       "awayId": "112",
       "away": "Parma",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559607",
+      "utcDate": "2026-12-06T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "516",
+      "home": "Marseille",
+      "awayId": "522",
+      "away": "Nice",
       "score": {
         "home": null,
         "away": null
@@ -4695,6 +5231,22 @@
       }
     },
     {
+      "id": "559602",
+      "utcDate": "2026-12-11T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "519",
+      "home": "Auxerre",
+      "awayId": "511",
+      "away": "Toulouse",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
       "id": "564783",
       "utcDate": "2026-12-11T20:00:00Z",
       "status": "TIMED",
@@ -4871,6 +5423,22 @@
       }
     },
     {
+      "id": "559596",
+      "utcDate": "2026-12-12T16:15:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "524",
+      "home": "PSG",
+      "awayId": "1045",
+      "away": "Paris FC",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
       "id": "558492",
       "utcDate": "2026-12-12T17:00:00Z",
       "status": "TIMED",
@@ -4945,6 +5513,70 @@
       "home": "Como 1907",
       "awayId": "103",
       "away": "Bologna",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559595",
+      "utcDate": "2026-12-12T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "522",
+      "home": "Nice",
+      "awayId": "546",
+      "away": "RC Lens",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559597",
+      "utcDate": "2026-12-12T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "532",
+      "home": "Angers SCO",
+      "awayId": "576",
+      "away": "Strasbourg",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559598",
+      "utcDate": "2026-12-12T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "512",
+      "home": "Brest",
+      "awayId": "531",
+      "away": "Troyes",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559599",
+      "utcDate": "2026-12-12T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "533",
+      "home": "Le Havre",
+      "awayId": "535",
+      "away": "Le Mans",
       "score": {
         "home": null,
         "away": null
@@ -5063,6 +5695,22 @@
       }
     },
     {
+      "id": "559601",
+      "utcDate": "2026-12-13T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "525",
+      "home": "Lorient",
+      "awayId": "521",
+      "away": "Lille",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
       "id": "565889",
       "utcDate": "2026-12-13T14:30:00Z",
       "status": "TIMED",
@@ -5089,6 +5737,22 @@
       "home": "Deportivo",
       "awayId": "77",
       "away": "Athletic",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559600",
+      "utcDate": "2026-12-13T16:15:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "529",
+      "home": "Stade Rennais",
+      "awayId": "548",
+      "away": "Monaco",
       "score": {
         "home": null,
         "away": null
@@ -5201,6 +5865,22 @@
       "home": "Napoli",
       "awayId": "98",
       "away": "Milan",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "559594",
+      "utcDate": "2026-12-13T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "competitionCode": "FL1",
+      "type": "League",
+      "homeId": "523",
+      "home": "Olympique Lyon",
+      "awayId": "516",
+      "away": "Marseille",
       "score": {
         "home": null,
         "away": null

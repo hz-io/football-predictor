@@ -1,0 +1,35 @@
+name: Sync Football Data
+
+on:
+  schedule:
+    - cron: "0 1 * * *"   # Daily ~07:30 AM Myanmar Time
+    - cron: "0 13 * * *"  # Daily ~07:30 PM Myanmar Time
+  workflow_dispatch:      # Allow manual run anytime from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run fetch_data.py
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: python fetch_data.py
+
+      - name: Commit and push updated data.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git diff --staged --quiet || git commit -m "chore: update football data.json"
+          git push

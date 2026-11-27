@@ -1,0 +1,5452 @@
+{
+  "updatedAt": "2026-11-27T10:05:05.103847+00:00",
+  "dateRange": {
+    "from": "2026-11-25",
+    "to": "2026-12-27"
+  },
+  "teams": {
+    "57": {
+      "id": "57",
+      "name": "Arsenal",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 7,
+      "leaguePoints": 11,
+      "played": 5,
+      "gfAvg": 1.8,
+      "gaAvg": 0.8,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Man City",
+        "comp": "Premier League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "397": {
+      "id": "397",
+      "name": "Brighton Hove",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 2,
+      "leaguePoints": 22,
+      "played": 11,
+      "gfAvg": 2.36,
+      "gaAvg": 0.82,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Newcastle",
+        "comp": "Premier League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "65": {
+      "id": "65",
+      "name": "Man City",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 8,
+      "leaguePoints": 10,
+      "played": 5,
+      "gfAvg": 2.8,
+      "gaAvg": 1.8,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Arsenal",
+        "comp": "Premier League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "64": {
+      "id": "64",
+      "name": "Liverpool",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 5,
+      "leaguePoints": 12,
+      "played": 5,
+      "gfAvg": 3.4,
+      "gaAvg": 2.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Everton",
+        "comp": "Premier League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "1044": {
+      "id": "1044",
+      "name": "Bournemouth",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 5,
+      "leaguePoints": 18,
+      "played": 11,
+      "gfAvg": 1.64,
+      "gaAvg": 1.27,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Fulham",
+        "comp": "Premier League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "402": {
+      "id": "402",
+      "name": "Brentford",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 6,
+      "leaguePoints": 17,
+      "played": 11,
+      "gfAvg": 1.82,
+      "gaAvg": 1.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Man United",
+        "comp": "Premier League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "341": {
+      "id": "341",
+      "name": "Leeds United",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 7,
+      "leaguePoints": 17,
+      "played": 11,
+      "gfAvg": 1.27,
+      "gaAvg": 0.82,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Coventry City",
+        "comp": "Premier League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "61": {
+      "id": "61",
+      "name": "Chelsea",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 8,
+      "leaguePoints": 16,
+      "played": 11,
+      "gfAvg": 1.82,
+      "gaAvg": 1.82,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-27",
+        "opponent": "Nottingham",
+        "comp": "Premier League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "62": {
+      "id": "62",
+      "name": "Everton",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 9,
+      "leaguePoints": 16,
+      "played": 11,
+      "gfAvg": 1.09,
+      "gaAvg": 1.27,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Liverpool",
+        "comp": "Premier League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "73": {
+      "id": "73",
+      "name": "Tottenham",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 10,
+      "leaguePoints": 15,
+      "played": 11,
+      "gfAvg": 1.09,
+      "gaAvg": 1.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Sunderland",
+        "comp": "Premier League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "322": {
+      "id": "322",
+      "name": "Hull City",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 11,
+      "leaguePoints": 14,
+      "played": 11,
+      "gfAvg": 1.18,
+      "gaAvg": 1.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Crystal Palace",
+        "comp": "Premier League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "58": {
+      "id": "58",
+      "name": "Aston Villa",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 11,
+      "leaguePoints": 9,
+      "played": 5,
+      "gfAvg": 2.4,
+      "gaAvg": 1.4,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Ipswich Town",
+        "comp": "Premier League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "67": {
+      "id": "67",
+      "name": "Newcastle",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 13,
+      "leaguePoints": 13,
+      "played": 11,
+      "gfAvg": 1.36,
+      "gaAvg": 1.64,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Brighton Hove",
+        "comp": "Premier League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "1076": {
+      "id": "1076",
+      "name": "Coventry City",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 14,
+      "leaguePoints": 12,
+      "played": 11,
+      "gfAvg": 1.18,
+      "gaAvg": 1.91,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Leeds United",
+        "comp": "Premier League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "63": {
+      "id": "63",
+      "name": "Fulham",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 15,
+      "leaguePoints": 11,
+      "played": 11,
+      "gfAvg": 1.0,
+      "gaAvg": 1.18,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Bournemouth",
+        "comp": "Premier League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "349": {
+      "id": "349",
+      "name": "Ipswich Town",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 16,
+      "leaguePoints": 11,
+      "played": 11,
+      "gfAvg": 1.36,
+      "gaAvg": 2.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Aston Villa",
+        "comp": "Premier League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "351": {
+      "id": "351",
+      "name": "Nottingham",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 17,
+      "leaguePoints": 9,
+      "played": 11,
+      "gfAvg": 0.82,
+      "gaAvg": 1.36,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-27",
+        "opponent": "Chelsea",
+        "comp": "Premier League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "71": {
+      "id": "71",
+      "name": "Sunderland",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 18,
+      "leaguePoints": 9,
+      "played": 11,
+      "gfAvg": 0.73,
+      "gaAvg": 1.55,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Tottenham",
+        "comp": "Premier League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "66": {
+      "id": "66",
+      "name": "Man United",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 19,
+      "leaguePoints": 7,
+      "played": 5,
+      "gfAvg": 2.0,
+      "gaAvg": 2.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Brentford",
+        "comp": "Premier League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "354": {
+      "id": "354",
+      "name": "Crystal Palace",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 20,
+      "leaguePoints": 7,
+      "played": 11,
+      "gfAvg": 1.09,
+      "gaAvg": 2.45,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Hull City",
+        "comp": "Premier League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "86": {
+      "id": "86",
+      "name": "Real Madrid",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 2,
+      "leaguePoints": 33,
+      "played": 13,
+      "gfAvg": 2.54,
+      "gaAvg": 0.85,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Alavés",
+        "comp": "Primera Division",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "524": {
+      "id": "524",
+      "name": "PSG",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 1,
+      "leaguePoints": 26,
+      "played": 11,
+      "gfAvg": 2.27,
+      "gaAvg": 1.09,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-08",
+        "opponent": "Aston Villa",
+        "comp": "UEFA Champions League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "7397": {
+      "id": "7397",
+      "name": "Como 1907",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 5,
+      "leaguePoints": 26,
+      "played": 12,
+      "gfAvg": 1.67,
+      "gaAvg": 0.83,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Juventus",
+        "comp": "Serie A",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "81": {
+      "id": "81",
+      "name": "Barça",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 1,
+      "leaguePoints": 36,
+      "played": 13,
+      "gfAvg": 3.92,
+      "gaAvg": 1.15,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Deportivo",
+        "comp": "Primera Division",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "90": {
+      "id": "90",
+      "name": "Real Betis",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 4,
+      "leaguePoints": 27,
+      "played": 13,
+      "gfAvg": 1.62,
+      "gaAvg": 1.23,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Rayo Vallecano",
+        "comp": "Primera Division",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "498": {
+      "id": "498",
+      "name": "Sporting CP",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 9,
+      "leaguePoints": 10,
+      "played": 5,
+      "gfAvg": 2.0,
+      "gaAvg": 1.2,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-08",
+        "opponent": "Roma",
+        "comp": "UEFA Champions League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "4": {
+      "id": "4",
+      "name": "Dortmund",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 1,
+      "leaguePoints": 24,
+      "played": 10,
+      "gfAvg": 1.7,
+      "gaAvg": 0.7,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Leverkusen",
+        "comp": "Bundesliga",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "108": {
+      "id": "108",
+      "name": "Inter",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 3,
+      "leaguePoints": 29,
+      "played": 12,
+      "gfAvg": 2.67,
+      "gaAvg": 1.42,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Genoa",
+        "comp": "Serie A",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "851": {
+      "id": "851",
+      "name": "Club Brugge",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 13,
+      "leaguePoints": 9,
+      "played": 5,
+      "gfAvg": 2.2,
+      "gaAvg": 2.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-08",
+        "opponent": "Napoli",
+        "comp": "UEFA Champions League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "610": {
+      "id": "610",
+      "name": "Galatasaray",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 14,
+      "leaguePoints": 9,
+      "played": 5,
+      "gfAvg": 1.8,
+      "gaAvg": 1.8,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-08",
+        "opponent": "PAE AEK",
+        "comp": "UEFA Champions League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "5": {
+      "id": "5",
+      "name": "Bayern",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 2,
+      "leaguePoints": 22,
+      "played": 10,
+      "gfAvg": 3.0,
+      "gaAvg": 1.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "HSV",
+        "comp": "Bundesliga",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "613": {
+      "id": "613",
+      "name": "Fenerbahçe",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 16,
+      "leaguePoints": 8,
+      "played": 5,
+      "gfAvg": 1.4,
+      "gaAvg": 2.2,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-09",
+        "opponent": "LASK",
+        "comp": "UEFA Champions League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "10": {
+      "id": "10",
+      "name": "Stuttgart",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 8,
+      "leaguePoints": 13,
+      "played": 10,
+      "gfAvg": 1.5,
+      "gaAvg": 1.5,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Frankfurt",
+        "comp": "Bundesliga",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "78": {
+      "id": "78",
+      "name": "Atleti",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 3,
+      "leaguePoints": 31,
+      "played": 13,
+      "gfAvg": 2.0,
+      "gaAvg": 0.77,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Elche",
+        "comp": "Primera Division",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "5721": {
+      "id": "5721",
+      "name": "Bodø/Glimt",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 20,
+      "leaguePoints": 7,
+      "played": 5,
+      "gfAvg": 1.0,
+      "gaAvg": 1.8,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-09",
+        "opponent": "RC Lens",
+        "comp": "UEFA Champions League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "2016": {
+      "id": "2016",
+      "name": "LASK",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 21,
+      "leaguePoints": 6,
+      "played": 5,
+      "gfAvg": 2.0,
+      "gaAvg": 2.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-09",
+        "opponent": "Fenerbahçe",
+        "comp": "UEFA Champions League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "503": {
+      "id": "503",
+      "name": "Porto",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 22,
+      "leaguePoints": 6,
+      "played": 5,
+      "gfAvg": 1.4,
+      "gaAvg": 1.4,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-09",
+        "opponent": "Liverpool",
+        "comp": "UEFA Champions League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "721": {
+      "id": "721",
+      "name": "RB Leipzig",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 4,
+      "leaguePoints": 21,
+      "played": 10,
+      "gfAvg": 3.2,
+      "gaAvg": 1.4,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Freiburg",
+        "comp": "Bundesliga",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "94": {
+      "id": "94",
+      "name": "Villarreal",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 10,
+      "leaguePoints": 15,
+      "played": 13,
+      "gfAvg": 1.46,
+      "gaAvg": 1.38,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Celta",
+        "comp": "Primera Division",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "100": {
+      "id": "100",
+      "name": "Roma",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 2,
+      "leaguePoints": 30,
+      "played": 12,
+      "gfAvg": 3.0,
+      "gaAvg": 0.92,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Monza",
+        "comp": "Serie A",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "1887": {
+      "id": "1887",
+      "name": "Shaktar",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 26,
+      "leaguePoints": 4,
+      "played": 5,
+      "gfAvg": 0.8,
+      "gaAvg": 1.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-09",
+        "opponent": "Sl. Bratislava",
+        "comp": "UEFA Champions League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "5720": {
+      "id": "5720",
+      "name": "Viking",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 27,
+      "leaguePoints": 4,
+      "played": 5,
+      "gfAvg": 1.8,
+      "gaAvg": 2.4,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-08",
+        "opponent": "Feyenoord",
+        "comp": "UEFA Champions League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "113": {
+      "id": "113",
+      "name": "Napoli",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 8,
+      "leaguePoints": 18,
+      "played": 12,
+      "gfAvg": 1.58,
+      "gaAvg": 1.17,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Sassuolo",
+        "comp": "Serie A",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "521": {
+      "id": "521",
+      "name": "Lille",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 3,
+      "leaguePoints": 21,
+      "played": 11,
+      "gfAvg": 1.27,
+      "gaAvg": 0.73,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-09",
+        "opponent": "Stuttgart",
+        "comp": "UEFA Champions League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "674": {
+      "id": "674",
+      "name": "PSV",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 30,
+      "leaguePoints": 4,
+      "played": 5,
+      "gfAvg": 0.8,
+      "gaAvg": 1.8,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-09",
+        "opponent": "Atleti",
+        "comp": "UEFA Champions League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "1899": {
+      "id": "1899",
+      "name": "PAE AEK",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 31,
+      "leaguePoints": 3,
+      "played": 5,
+      "gfAvg": 1.0,
+      "gaAvg": 2.4,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-08",
+        "opponent": "Galatasaray",
+        "comp": "UEFA Champions League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "675": {
+      "id": "675",
+      "name": "Feyenoord",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 32,
+      "leaguePoints": 3,
+      "played": 5,
+      "gfAvg": 0.8,
+      "gaAvg": 2.4,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-08",
+        "opponent": "Viking",
+        "comp": "UEFA Champions League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "10233": {
+      "id": "10233",
+      "name": "Sabah FK",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 33,
+      "leaguePoints": 3,
+      "played": 5,
+      "gfAvg": 1.0,
+      "gaAvg": 2.8,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-08",
+        "opponent": "Villarreal",
+        "comp": "UEFA Champions League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "546": {
+      "id": "546",
+      "name": "RC Lens",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 11,
+      "leaguePoints": 14,
+      "played": 11,
+      "gfAvg": 1.64,
+      "gaAvg": 1.45,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-09",
+        "opponent": "Bodø/Glimt",
+        "comp": "UEFA Champions League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "930": {
+      "id": "930",
+      "name": "Slavia Praha",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 35,
+      "leaguePoints": 1,
+      "played": 5,
+      "gfAvg": 1.0,
+      "gaAvg": 2.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-08",
+        "opponent": "Bayern",
+        "comp": "UEFA Champions League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "7509": {
+      "id": "7509",
+      "name": "Sl. Bratislava",
+      "leagueCode": "CL",
+      "leagueName": "UEFA Champions League",
+      "leagueRank": 36,
+      "leaguePoints": 0,
+      "played": 5,
+      "gfAvg": 0.2,
+      "gaAvg": 3.8,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-12-09",
+        "opponent": "Shaktar",
+        "comp": "UEFA Champions League",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "92": {
+      "id": "92",
+      "name": "Real Sociedad",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 5,
+      "leaguePoints": 22,
+      "played": 13,
+      "gfAvg": 1.77,
+      "gaAvg": 1.77,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Sevilla FC",
+        "comp": "Primera Division",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "559": {
+      "id": "559",
+      "name": "Sevilla FC",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 6,
+      "leaguePoints": 19,
+      "played": 13,
+      "gfAvg": 1.38,
+      "gaAvg": 1.54,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Real Sociedad",
+        "comp": "Primera Division",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "5335": {
+      "id": "5335",
+      "name": "Santander",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 7,
+      "leaguePoints": 17,
+      "played": 13,
+      "gfAvg": 1.54,
+      "gaAvg": 2.46,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-27",
+        "opponent": "Levante",
+        "comp": "Primera Division",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "77": {
+      "id": "77",
+      "name": "Athletic",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 8,
+      "leaguePoints": 16,
+      "played": 12,
+      "gfAvg": 1.25,
+      "gaAvg": 1.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Málaga",
+        "comp": "Primera Division",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "263": {
+      "id": "263",
+      "name": "Alavés",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 9,
+      "leaguePoints": 16,
+      "played": 13,
+      "gfAvg": 1.38,
+      "gaAvg": 1.38,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Real Madrid",
+        "comp": "Primera Division",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "80": {
+      "id": "80",
+      "name": "Espanyol",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 11,
+      "leaguePoints": 15,
+      "played": 13,
+      "gfAvg": 1.08,
+      "gaAvg": 1.08,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-30",
+        "opponent": "Getafe",
+        "comp": "Primera Division",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "560": {
+      "id": "560",
+      "name": "Deportivo",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 12,
+      "leaguePoints": 15,
+      "played": 13,
+      "gfAvg": 1.23,
+      "gaAvg": 1.31,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Barça",
+        "comp": "Primera Division",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "79": {
+      "id": "79",
+      "name": "Osasuna",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 13,
+      "leaguePoints": 15,
+      "played": 13,
+      "gfAvg": 1.0,
+      "gaAvg": 1.77,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Valencia",
+        "comp": "Primera Division",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "558": {
+      "id": "558",
+      "name": "Celta",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 14,
+      "leaguePoints": 13,
+      "played": 13,
+      "gfAvg": 0.85,
+      "gaAvg": 0.92,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Villarreal",
+        "comp": "Primera Division",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "88": {
+      "id": "88",
+      "name": "Levante",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 15,
+      "leaguePoints": 12,
+      "played": 13,
+      "gfAvg": 1.31,
+      "gaAvg": 1.69,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-27",
+        "opponent": "Santander",
+        "comp": "Primera Division",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "87": {
+      "id": "87",
+      "name": "Rayo Vallecano",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 16,
+      "leaguePoints": 12,
+      "played": 12,
+      "gfAvg": 1.25,
+      "gaAvg": 1.83,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Real Betis",
+        "comp": "Primera Division",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "95": {
+      "id": "95",
+      "name": "Valencia",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 17,
+      "leaguePoints": 12,
+      "played": 13,
+      "gfAvg": 0.69,
+      "gaAvg": 1.54,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Osasuna",
+        "comp": "Primera Division",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "82": {
+      "id": "82",
+      "name": "Getafe",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 18,
+      "leaguePoints": 12,
+      "played": 13,
+      "gfAvg": 0.62,
+      "gaAvg": 1.62,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-30",
+        "opponent": "Espanyol",
+        "comp": "Primera Division",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "285": {
+      "id": "285",
+      "name": "Elche",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 19,
+      "leaguePoints": 11,
+      "played": 13,
+      "gfAvg": 1.15,
+      "gaAvg": 1.62,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Atleti",
+        "comp": "Primera Division",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "84": {
+      "id": "84",
+      "name": "Málaga",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 20,
+      "leaguePoints": 5,
+      "played": 13,
+      "gfAvg": 0.69,
+      "gaAvg": 1.85,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Athletic",
+        "comp": "Primera Division",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "17": {
+      "id": "17",
+      "name": "Freiburg",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 3,
+      "leaguePoints": 22,
+      "played": 10,
+      "gfAvg": 2.1,
+      "gaAvg": 1.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "RB Leipzig",
+        "comp": "Bundesliga",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "3": {
+      "id": "3",
+      "name": "Leverkusen",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 5,
+      "leaguePoints": 19,
+      "played": 10,
+      "gfAvg": 2.4,
+      "gaAvg": 1.7,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Dortmund",
+        "comp": "Bundesliga",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "12": {
+      "id": "12",
+      "name": "Bremen",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 6,
+      "leaguePoints": 18,
+      "played": 10,
+      "gfAvg": 2.1,
+      "gaAvg": 1.5,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-27",
+        "opponent": "M'gladbach",
+        "comp": "Bundesliga",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "19": {
+      "id": "19",
+      "name": "Frankfurt",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 7,
+      "leaguePoints": 15,
+      "played": 10,
+      "gfAvg": 1.6,
+      "gaAvg": 2.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Stuttgart",
+        "comp": "Bundesliga",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "719": {
+      "id": "719",
+      "name": "Elversberg",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 9,
+      "leaguePoints": 13,
+      "played": 10,
+      "gfAvg": 1.7,
+      "gaAvg": 1.9,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "1. FC Köln",
+        "comp": "Bundesliga",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "16": {
+      "id": "16",
+      "name": "Augsburg",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 10,
+      "leaguePoints": 12,
+      "played": 10,
+      "gfAvg": 2.3,
+      "gaAvg": 2.1,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Hoffenheim",
+        "comp": "Bundesliga",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "2": {
+      "id": "2",
+      "name": "Hoffenheim",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 11,
+      "leaguePoints": 12,
+      "played": 10,
+      "gfAvg": 1.6,
+      "gaAvg": 1.8,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Augsburg",
+        "comp": "Bundesliga",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "7": {
+      "id": "7",
+      "name": "HSV",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 12,
+      "leaguePoints": 12,
+      "played": 10,
+      "gfAvg": 1.0,
+      "gaAvg": 2.4,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Bayern",
+        "comp": "Bundesliga",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "15": {
+      "id": "15",
+      "name": "Mainz",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 13,
+      "leaguePoints": 10,
+      "played": 10,
+      "gfAvg": 1.9,
+      "gaAvg": 2.2,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Union Berlin",
+        "comp": "Bundesliga",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "1": {
+      "id": "1",
+      "name": "1. FC Köln",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 14,
+      "leaguePoints": 10,
+      "played": 10,
+      "gfAvg": 1.1,
+      "gaAvg": 1.5,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Elversberg",
+        "comp": "Bundesliga",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "29": {
+      "id": "29",
+      "name": "SC Paderborn",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 15,
+      "leaguePoints": 10,
+      "played": 10,
+      "gfAvg": 0.8,
+      "gaAvg": 1.5,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Schalke",
+        "comp": "Bundesliga",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "6": {
+      "id": "6",
+      "name": "Schalke",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 16,
+      "leaguePoints": 7,
+      "played": 10,
+      "gfAvg": 0.5,
+      "gaAvg": 1.1,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "SC Paderborn",
+        "comp": "Bundesliga",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "28": {
+      "id": "28",
+      "name": "Union Berlin",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 17,
+      "leaguePoints": 7,
+      "played": 10,
+      "gfAvg": 0.8,
+      "gaAvg": 2.6,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Mainz",
+        "comp": "Bundesliga",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "18": {
+      "id": "18",
+      "name": "M'gladbach",
+      "leagueCode": "BL1",
+      "leagueName": "Bundesliga",
+      "leagueRank": 18,
+      "leaguePoints": 4,
+      "played": 10,
+      "gfAvg": 1.2,
+      "gaAvg": 2.6,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-27",
+        "opponent": "Bremen",
+        "comp": "Bundesliga",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "110": {
+      "id": "110",
+      "name": "Lazio",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 1,
+      "leaguePoints": 32,
+      "played": 12,
+      "gfAvg": 2.33,
+      "gaAvg": 0.75,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Torino",
+        "comp": "Serie A",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "98": {
+      "id": "98",
+      "name": "Milan",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 4,
+      "leaguePoints": 27,
+      "played": 12,
+      "gfAvg": 2.33,
+      "gaAvg": 1.17,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-30",
+        "opponent": "Cagliari",
+        "comp": "Serie A",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "109": {
+      "id": "109",
+      "name": "Juventus",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 6,
+      "leaguePoints": 21,
+      "played": 12,
+      "gfAvg": 1.58,
+      "gaAvg": 1.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Como 1907",
+        "comp": "Serie A",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "470": {
+      "id": "470",
+      "name": "Frosinone",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 7,
+      "leaguePoints": 20,
+      "played": 12,
+      "gfAvg": 2.08,
+      "gaAvg": 1.67,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Parma",
+        "comp": "Serie A",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "103": {
+      "id": "103",
+      "name": "Bologna",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 9,
+      "leaguePoints": 18,
+      "played": 12,
+      "gfAvg": 1.42,
+      "gaAvg": 1.25,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-27",
+        "opponent": "Venezia FC",
+        "comp": "Serie A",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "107": {
+      "id": "107",
+      "name": "Genoa",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 10,
+      "leaguePoints": 16,
+      "played": 12,
+      "gfAvg": 1.08,
+      "gaAvg": 1.33,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Inter",
+        "comp": "Serie A",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "104": {
+      "id": "104",
+      "name": "Cagliari",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 11,
+      "leaguePoints": 16,
+      "played": 12,
+      "gfAvg": 0.83,
+      "gaAvg": 1.42,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-30",
+        "opponent": "Milan",
+        "comp": "Serie A",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "102": {
+      "id": "102",
+      "name": "Atalanta",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 12,
+      "leaguePoints": 15,
+      "played": 12,
+      "gfAvg": 1.75,
+      "gaAvg": 2.0,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-30",
+        "opponent": "Lecce",
+        "comp": "Serie A",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "586": {
+      "id": "586",
+      "name": "Torino",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 13,
+      "leaguePoints": 14,
+      "played": 12,
+      "gfAvg": 1.25,
+      "gaAvg": 1.5,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Lazio",
+        "comp": "Serie A",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "5911": {
+      "id": "5911",
+      "name": "Monza",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 14,
+      "leaguePoints": 10,
+      "played": 12,
+      "gfAvg": 1.67,
+      "gaAvg": 2.08,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Roma",
+        "comp": "Serie A",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "5890": {
+      "id": "5890",
+      "name": "Lecce",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 15,
+      "leaguePoints": 10,
+      "played": 12,
+      "gfAvg": 1.0,
+      "gaAvg": 2.08,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-30",
+        "opponent": "Atalanta",
+        "comp": "Serie A",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "99": {
+      "id": "99",
+      "name": "Fiorentina",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 16,
+      "leaguePoints": 9,
+      "played": 12,
+      "gfAvg": 1.42,
+      "gaAvg": 2.33,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Udinese",
+        "comp": "Serie A",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "112": {
+      "id": "112",
+      "name": "Parma",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 17,
+      "leaguePoints": 8,
+      "played": 12,
+      "gfAvg": 0.83,
+      "gaAvg": 1.83,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-28",
+        "opponent": "Frosinone",
+        "comp": "Serie A",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "471": {
+      "id": "471",
+      "name": "Sassuolo",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 18,
+      "leaguePoints": 8,
+      "played": 12,
+      "gfAvg": 1.33,
+      "gaAvg": 2.58,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Napoli",
+        "comp": "Serie A",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "115": {
+      "id": "115",
+      "name": "Udinese",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 19,
+      "leaguePoints": 6,
+      "played": 12,
+      "gfAvg": 1.08,
+      "gaAvg": 2.17,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-29",
+        "opponent": "Fiorentina",
+        "comp": "Serie A",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "454": {
+      "id": "454",
+      "name": "Venezia FC",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 20,
+      "leaguePoints": 6,
+      "played": 12,
+      "gfAvg": 0.67,
+      "gaAvg": 2.08,
+      "last5": [],
+      "nextMatch": {
+        "date": "2026-11-27",
+        "opponent": "Bologna",
+        "comp": "Serie A",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "1045": {
+      "id": "1045",
+      "name": "Paris FC",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 2,
+      "leaguePoints": 23,
+      "played": 11,
+      "gfAvg": 1.91,
+      "gaAvg": 0.91,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "523": {
+      "id": "523",
+      "name": "Olympique Lyon",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 4,
+      "leaguePoints": 20,
+      "played": 11,
+      "gfAvg": 1.45,
+      "gaAvg": 0.82,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "516": {
+      "id": "516",
+      "name": "Marseille",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 5,
+      "leaguePoints": 18,
+      "played": 11,
+      "gfAvg": 2.18,
+      "gaAvg": 1.55,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "512": {
+      "id": "512",
+      "name": "Brest",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 6,
+      "leaguePoints": 18,
+      "played": 11,
+      "gfAvg": 1.73,
+      "gaAvg": 1.09,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "522": {
+      "id": "522",
+      "name": "Nice",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 7,
+      "leaguePoints": 17,
+      "played": 11,
+      "gfAvg": 1.55,
+      "gaAvg": 1.36,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "548": {
+      "id": "548",
+      "name": "Monaco",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 8,
+      "leaguePoints": 17,
+      "played": 11,
+      "gfAvg": 1.27,
+      "gaAvg": 1.09,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "529": {
+      "id": "529",
+      "name": "Stade Rennais",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 9,
+      "leaguePoints": 17,
+      "played": 11,
+      "gfAvg": 2.0,
+      "gaAvg": 2.0,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "525": {
+      "id": "525",
+      "name": "Lorient",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 10,
+      "leaguePoints": 16,
+      "played": 11,
+      "gfAvg": 0.91,
+      "gaAvg": 0.82,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "511": {
+      "id": "511",
+      "name": "Toulouse",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 12,
+      "leaguePoints": 14,
+      "played": 11,
+      "gfAvg": 1.45,
+      "gaAvg": 1.36,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "535": {
+      "id": "535",
+      "name": "Le Mans",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 13,
+      "leaguePoints": 11,
+      "played": 11,
+      "gfAvg": 1.36,
+      "gaAvg": 1.91,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "531": {
+      "id": "531",
+      "name": "Troyes",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 14,
+      "leaguePoints": 11,
+      "played": 11,
+      "gfAvg": 0.91,
+      "gaAvg": 1.64,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "519": {
+      "id": "519",
+      "name": "Auxerre",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 15,
+      "leaguePoints": 11,
+      "played": 11,
+      "gfAvg": 1.27,
+      "gaAvg": 2.27,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "576": {
+      "id": "576",
+      "name": "Strasbourg",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 16,
+      "leaguePoints": 10,
+      "played": 11,
+      "gfAvg": 1.64,
+      "gaAvg": 2.09,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "532": {
+      "id": "532",
+      "name": "Angers SCO",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 17,
+      "leaguePoints": 8,
+      "played": 11,
+      "gfAvg": 0.82,
+      "gaAvg": 2.09,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    },
+    "533": {
+      "id": "533",
+      "name": "Le Havre",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 18,
+      "leaguePoints": 2,
+      "played": 11,
+      "gfAvg": 0.91,
+      "gaAvg": 2.27,
+      "last5": [],
+      "nextMatch": null,
+      "injuries": [],
+      "suspensions": []
+    }
+  },
+  "matches": [
+    {
+      "id": "575404",
+      "utcDate": "2026-11-25T17:45:00Z",
+      "status": "FINISHED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "10233",
+      "home": "Sabah FK",
+      "awayId": "81",
+      "away": "Barça",
+      "score": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "575405",
+      "utcDate": "2026-11-25T17:45:00Z",
+      "status": "FINISHED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "930",
+      "home": "Slavia Praha",
+      "awayId": "94",
+      "away": "Villarreal",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "575406",
+      "utcDate": "2026-11-25T20:00:00Z",
+      "status": "FINISHED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "108",
+      "home": "Inter",
+      "awayId": "10",
+      "away": "Stuttgart",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "575407",
+      "utcDate": "2026-11-25T20:00:00Z",
+      "status": "FINISHED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "78",
+      "home": "Atleti",
+      "awayId": "5720",
+      "away": "Viking",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "575408",
+      "utcDate": "2026-11-25T20:00:00Z",
+      "status": "FINISHED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "524",
+      "home": "PSG",
+      "awayId": "100",
+      "away": "Roma",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "575409",
+      "utcDate": "2026-11-25T20:00:00Z",
+      "status": "FINISHED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "851",
+      "home": "Club Brugge",
+      "awayId": "64",
+      "away": "Liverpool",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "575410",
+      "utcDate": "2026-11-25T20:00:00Z",
+      "status": "FINISHED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "521",
+      "home": "Lille",
+      "awayId": "5",
+      "away": "Bayern",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "575411",
+      "utcDate": "2026-11-25T20:00:00Z",
+      "status": "FINISHED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "498",
+      "home": "Sporting CP",
+      "awayId": "66",
+      "away": "Man United",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "575412",
+      "utcDate": "2026-11-25T20:00:00Z",
+      "status": "FINISHED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "1887",
+      "home": "Shaktar",
+      "awayId": "613",
+      "away": "Fenerbahçe",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "565869",
+      "utcDate": "2026-11-27T19:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "12",
+      "home": "Bremen",
+      "awayId": "18",
+      "away": "M'gladbach",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558515",
+      "utcDate": "2026-11-27T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "454",
+      "home": "Venezia FC",
+      "awayId": "103",
+      "away": "Bologna",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560658",
+      "utcDate": "2026-11-27T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "351",
+      "home": "Nottingham",
+      "awayId": "61",
+      "away": "Chelsea",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564765",
+      "utcDate": "2026-11-27T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "88",
+      "home": "Levante",
+      "awayId": "5335",
+      "away": "Santander",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564760",
+      "utcDate": "2026-11-28T13:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "90",
+      "home": "Real Betis",
+      "awayId": "87",
+      "away": "Rayo Vallecano",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558513",
+      "utcDate": "2026-11-28T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "470",
+      "home": "Frosinone",
+      "awayId": "112",
+      "away": "Parma",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565866",
+      "utcDate": "2026-11-28T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "1",
+      "home": "1. FC Köln",
+      "awayId": "719",
+      "away": "Elversberg",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565867",
+      "utcDate": "2026-11-28T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "15",
+      "home": "Mainz",
+      "awayId": "28",
+      "away": "Union Berlin",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565868",
+      "utcDate": "2026-11-28T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "29",
+      "home": "SC Paderborn",
+      "awayId": "6",
+      "away": "Schalke",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565874",
+      "utcDate": "2026-11-28T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "7",
+      "home": "HSV",
+      "awayId": "5",
+      "away": "Bayern",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560652",
+      "utcDate": "2026-11-28T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "341",
+      "home": "Leeds United",
+      "awayId": "1076",
+      "away": "Coventry City",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560655",
+      "utcDate": "2026-11-28T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "66",
+      "home": "Man United",
+      "awayId": "402",
+      "away": "Brentford",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564767",
+      "utcDate": "2026-11-28T15:15:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "84",
+      "home": "Málaga",
+      "awayId": "77",
+      "away": "Athletic",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558514",
+      "utcDate": "2026-11-28T17:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "586",
+      "home": "Torino",
+      "awayId": "110",
+      "away": "Lazio",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560653",
+      "utcDate": "2026-11-28T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "349",
+      "home": "Ipswich Town",
+      "awayId": "58",
+      "away": "Aston Villa",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564759",
+      "utcDate": "2026-11-28T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "285",
+      "home": "Elche",
+      "awayId": "78",
+      "away": "Atleti",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565870",
+      "utcDate": "2026-11-28T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "10",
+      "home": "Stuttgart",
+      "awayId": "19",
+      "away": "Frankfurt",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558518",
+      "utcDate": "2026-11-28T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "108",
+      "home": "Inter",
+      "awayId": "107",
+      "away": "Genoa",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564762",
+      "utcDate": "2026-11-28T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "86",
+      "home": "Real Madrid",
+      "awayId": "263",
+      "away": "Alavés",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558517",
+      "utcDate": "2026-11-29T11:30:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "115",
+      "home": "Udinese",
+      "awayId": "99",
+      "away": "Fiorentina",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560656",
+      "utcDate": "2026-11-29T12:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "62",
+      "home": "Everton",
+      "awayId": "64",
+      "away": "Liverpool",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564761",
+      "utcDate": "2026-11-29T13:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "95",
+      "home": "Valencia",
+      "awayId": "79",
+      "away": "Osasuna",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558509",
+      "utcDate": "2026-11-29T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "471",
+      "home": "Sassuolo",
+      "awayId": "113",
+      "away": "Napoli",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560657",
+      "utcDate": "2026-11-29T14:05:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "63",
+      "home": "Fulham",
+      "awayId": "1044",
+      "away": "Bournemouth",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560659",
+      "utcDate": "2026-11-29T14:05:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "397",
+      "home": "Brighton Hove",
+      "awayId": "67",
+      "away": "Newcastle",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560660",
+      "utcDate": "2026-11-29T14:05:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "71",
+      "home": "Sunderland",
+      "awayId": "73",
+      "away": "Tottenham",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560661",
+      "utcDate": "2026-11-29T14:05:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "354",
+      "home": "Crystal Palace",
+      "awayId": "322",
+      "away": "Hull City",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565873",
+      "utcDate": "2026-11-29T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "17",
+      "home": "Freiburg",
+      "awayId": "721",
+      "away": "RB Leipzig",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564766",
+      "utcDate": "2026-11-29T15:15:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "560",
+      "home": "Deportivo",
+      "awayId": "81",
+      "away": "Barça",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560654",
+      "utcDate": "2026-11-29T16:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "57",
+      "home": "Arsenal",
+      "awayId": "65",
+      "away": "Man City",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565871",
+      "utcDate": "2026-11-29T16:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "2",
+      "home": "Hoffenheim",
+      "awayId": "16",
+      "away": "Augsburg",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558512",
+      "utcDate": "2026-11-29T17:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "100",
+      "home": "Roma",
+      "awayId": "5911",
+      "away": "Monza",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564758",
+      "utcDate": "2026-11-29T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "558",
+      "home": "Celta",
+      "awayId": "94",
+      "away": "Villarreal",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565872",
+      "utcDate": "2026-11-29T18:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "4",
+      "home": "Dortmund",
+      "awayId": "3",
+      "away": "Leverkusen",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558511",
+      "utcDate": "2026-11-29T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "7397",
+      "home": "Como 1907",
+      "awayId": "109",
+      "away": "Juventus",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564764",
+      "utcDate": "2026-11-29T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "92",
+      "home": "Real Sociedad",
+      "awayId": "559",
+      "away": "Sevilla FC",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558516",
+      "utcDate": "2026-11-30T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "5890",
+      "home": "Lecce",
+      "awayId": "102",
+      "away": "Atalanta",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558510",
+      "utcDate": "2026-11-30T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "104",
+      "home": "Cagliari",
+      "awayId": "98",
+      "away": "Milan",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564763",
+      "utcDate": "2026-11-30T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "80",
+      "home": "Espanyol",
+      "awayId": "82",
+      "away": "Getafe",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560668",
+      "utcDate": "2026-12-01T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "1076",
+      "home": "Coventry City",
+      "awayId": "349",
+      "away": "Ipswich Town",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564855",
+      "utcDate": "2026-12-02T18:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "92",
+      "home": "Real Sociedad",
+      "awayId": "86",
+      "away": "Real Madrid",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560663",
+      "utcDate": "2026-12-02T19:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "64",
+      "home": "Liverpool",
+      "awayId": "71",
+      "away": "Sunderland",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560664",
+      "utcDate": "2026-12-02T19:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "322",
+      "home": "Hull City",
+      "awayId": "351",
+      "away": "Nottingham",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560665",
+      "utcDate": "2026-12-02T19:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "61",
+      "home": "Chelsea",
+      "awayId": "354",
+      "away": "Crystal Palace",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560669",
+      "utcDate": "2026-12-02T19:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "65",
+      "home": "Man City",
+      "awayId": "341",
+      "away": "Leeds United",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560666",
+      "utcDate": "2026-12-02T20:15:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "58",
+      "home": "Aston Villa",
+      "awayId": "62",
+      "away": "Everton",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560667",
+      "utcDate": "2026-12-02T20:15:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "402",
+      "home": "Brentford",
+      "awayId": "57",
+      "away": "Arsenal",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560670",
+      "utcDate": "2026-12-02T20:15:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "67",
+      "home": "Newcastle",
+      "awayId": "66",
+      "away": "Man United",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560671",
+      "utcDate": "2026-12-02T20:15:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "1044",
+      "home": "Bournemouth",
+      "awayId": "397",
+      "away": "Brighton Hove",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564857",
+      "utcDate": "2026-12-02T20:30:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "81",
+      "home": "Barça",
+      "awayId": "78",
+      "away": "Atleti",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560662",
+      "utcDate": "2026-12-03T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "73",
+      "home": "Tottenham",
+      "awayId": "63",
+      "away": "Fulham",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565882",
+      "utcDate": "2026-12-04T19:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "5",
+      "home": "Bayern",
+      "awayId": "29",
+      "away": "SC Paderborn",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558502",
+      "utcDate": "2026-12-04T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "103",
+      "home": "Bologna",
+      "awayId": "100",
+      "away": "Roma",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564770",
+      "utcDate": "2026-12-04T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "263",
+      "home": "Alavés",
+      "awayId": "80",
+      "away": "Espanyol",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560676",
+      "utcDate": "2026-12-05T12:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "61",
+      "home": "Chelsea",
+      "awayId": "64",
+      "away": "Liverpool",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564772",
+      "utcDate": "2026-12-05T13:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "5335",
+      "home": "Santander",
+      "awayId": "560",
+      "away": "Deportivo",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558507",
+      "utcDate": "2026-12-05T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "5911",
+      "home": "Monza",
+      "awayId": "7397",
+      "away": "Como 1907",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565875",
+      "utcDate": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "28",
+      "home": "Union Berlin",
+      "awayId": "7",
+      "away": "HSV",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565877",
+      "utcDate": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "3",
+      "home": "Leverkusen",
+      "awayId": "18",
+      "away": "M'gladbach",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565879",
+      "utcDate": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "721",
+      "home": "RB Leipzig",
+      "awayId": "15",
+      "away": "Mainz",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565881",
+      "utcDate": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "17",
+      "home": "Freiburg",
+      "awayId": "2",
+      "away": "Hoffenheim",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565883",
+      "utcDate": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "16",
+      "home": "Augsburg",
+      "awayId": "1",
+      "away": "1. FC Köln",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560673",
+      "utcDate": "2026-12-05T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "66",
+      "home": "Man United",
+      "awayId": "1076",
+      "away": "Coventry City",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560674",
+      "utcDate": "2026-12-05T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "341",
+      "home": "Leeds United",
+      "awayId": "349",
+      "away": "Ipswich Town",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560678",
+      "utcDate": "2026-12-05T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "1044",
+      "home": "Bournemouth",
+      "awayId": "322",
+      "away": "Hull City",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560679",
+      "utcDate": "2026-12-05T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "58",
+      "home": "Aston Villa",
+      "awayId": "354",
+      "away": "Crystal Palace",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564777",
+      "utcDate": "2026-12-05T15:15:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "87",
+      "home": "Rayo Vallecano",
+      "awayId": "88",
+      "away": "Levante",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558501",
+      "utcDate": "2026-12-05T17:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "470",
+      "home": "Frosinone",
+      "awayId": "108",
+      "away": "Inter",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560680",
+      "utcDate": "2026-12-05T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "351",
+      "home": "Nottingham",
+      "awayId": "397",
+      "away": "Brighton Hove",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564776",
+      "utcDate": "2026-12-05T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "94",
+      "home": "Villarreal",
+      "awayId": "92",
+      "away": "Real Sociedad",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565878",
+      "utcDate": "2026-12-05T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "19",
+      "home": "Frankfurt",
+      "awayId": "12",
+      "away": "Bremen",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558508",
+      "utcDate": "2026-12-05T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "113",
+      "home": "Napoli",
+      "awayId": "5890",
+      "away": "Lecce",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560677",
+      "utcDate": "2026-12-05T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "402",
+      "home": "Brentford",
+      "awayId": "65",
+      "away": "Man City",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564773",
+      "utcDate": "2026-12-05T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "81",
+      "home": "Barça",
+      "awayId": "558",
+      "away": "Celta",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558499",
+      "utcDate": "2026-12-06T11:30:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "107",
+      "home": "Genoa",
+      "awayId": "586",
+      "away": "Torino",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564768",
+      "utcDate": "2026-12-06T13:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "79",
+      "home": "Osasuna",
+      "awayId": "285",
+      "away": "Elche",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560675",
+      "utcDate": "2026-12-06T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "67",
+      "home": "Newcastle",
+      "awayId": "71",
+      "away": "Sunderland",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560681",
+      "utcDate": "2026-12-06T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "62",
+      "home": "Everton",
+      "awayId": "63",
+      "away": "Fulham",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558504",
+      "utcDate": "2026-12-06T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "110",
+      "home": "Lazio",
+      "awayId": "102",
+      "away": "Atalanta",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565876",
+      "utcDate": "2026-12-06T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "6",
+      "home": "Schalke",
+      "awayId": "4",
+      "away": "Dortmund",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564775",
+      "utcDate": "2026-12-06T15:15:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "77",
+      "home": "Athletic",
+      "awayId": "86",
+      "away": "Real Madrid",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560672",
+      "utcDate": "2026-12-06T16:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "73",
+      "home": "Tottenham",
+      "awayId": "57",
+      "away": "Arsenal",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565880",
+      "utcDate": "2026-12-06T16:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "719",
+      "home": "Elversberg",
+      "awayId": "10",
+      "away": "Stuttgart",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558500",
+      "utcDate": "2026-12-06T17:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "109",
+      "home": "Juventus",
+      "awayId": "115",
+      "away": "Udinese",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564774",
+      "utcDate": "2026-12-06T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "82",
+      "home": "Getafe",
+      "awayId": "95",
+      "away": "Valencia",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558505",
+      "utcDate": "2026-12-06T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "98",
+      "home": "Milan",
+      "awayId": "112",
+      "away": "Parma",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564771",
+      "utcDate": "2026-12-06T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "78",
+      "home": "Atleti",
+      "awayId": "90",
+      "away": "Real Betis",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558506",
+      "utcDate": "2026-12-07T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "454",
+      "home": "Venezia FC",
+      "awayId": "471",
+      "away": "Sassuolo",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558503",
+      "utcDate": "2026-12-07T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "99",
+      "home": "Fiorentina",
+      "awayId": "104",
+      "away": "Cagliari",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564769",
+      "utcDate": "2026-12-07T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "559",
+      "home": "Sevilla FC",
+      "awayId": "84",
+      "away": "Málaga",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575413",
+      "utcDate": "2026-12-08T17:45:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "94",
+      "home": "Villarreal",
+      "awayId": "10233",
+      "away": "Sabah FK",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575414",
+      "utcDate": "2026-12-08T17:45:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "5720",
+      "home": "Viking",
+      "awayId": "675",
+      "away": "Feyenoord",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575415",
+      "utcDate": "2026-12-08T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "81",
+      "home": "Barça",
+      "awayId": "65",
+      "away": "Man City",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575416",
+      "utcDate": "2026-12-08T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "58",
+      "home": "Aston Villa",
+      "awayId": "524",
+      "away": "PSG",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575417",
+      "utcDate": "2026-12-08T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "5",
+      "home": "Bayern",
+      "awayId": "930",
+      "away": "Slavia Praha",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575418",
+      "utcDate": "2026-12-08T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "113",
+      "home": "Napoli",
+      "awayId": "851",
+      "away": "Club Brugge",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575419",
+      "utcDate": "2026-12-08T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "100",
+      "home": "Roma",
+      "awayId": "498",
+      "away": "Sporting CP",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575420",
+      "utcDate": "2026-12-08T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "66",
+      "home": "Man United",
+      "awayId": "721",
+      "away": "RB Leipzig",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575421",
+      "utcDate": "2026-12-08T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "1899",
+      "home": "PAE AEK",
+      "awayId": "610",
+      "away": "Galatasaray",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575422",
+      "utcDate": "2026-12-09T17:45:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "90",
+      "home": "Real Betis",
+      "awayId": "7397",
+      "away": "Como 1907",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575423",
+      "utcDate": "2026-12-09T17:45:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "7509",
+      "home": "Sl. Bratislava",
+      "awayId": "1887",
+      "away": "Shaktar",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564698",
+      "utcDate": "2026-12-09T19:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "87",
+      "home": "Rayo Vallecano",
+      "awayId": "77",
+      "away": "Athletic",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "575280",
+      "utcDate": "2026-12-09T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "57",
+      "home": "Arsenal",
+      "awayId": "86",
+      "away": "Real Madrid",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575286",
+      "utcDate": "2026-12-09T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "4",
+      "home": "Dortmund",
+      "awayId": "108",
+      "away": "Inter",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575290",
+      "utcDate": "2026-12-09T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "674",
+      "home": "PSV",
+      "awayId": "78",
+      "away": "Atleti",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575295",
+      "utcDate": "2026-12-09T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "64",
+      "home": "Liverpool",
+      "awayId": "503",
+      "away": "Porto",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575315",
+      "utcDate": "2026-12-09T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "546",
+      "home": "RC Lens",
+      "awayId": "5721",
+      "away": "Bodø/Glimt",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575317",
+      "utcDate": "2026-12-09T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "2016",
+      "home": "LASK",
+      "awayId": "613",
+      "away": "Fenerbahçe",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "575322",
+      "utcDate": "2026-12-09T20:00:00Z",
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "competitionCode": "CL",
+      "type": "Cup",
+      "homeId": "10",
+      "home": "Stuttgart",
+      "awayId": "521",
+      "away": "Lille",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565888",
+      "utcDate": "2026-12-11T19:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "7",
+      "home": "HSV",
+      "awayId": "6",
+      "away": "Schalke",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558491",
+      "utcDate": "2026-12-11T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "115",
+      "home": "Udinese",
+      "awayId": "470",
+      "away": "Frosinone",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564783",
+      "utcDate": "2026-12-11T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "285",
+      "home": "Elche",
+      "awayId": "559",
+      "away": "Sevilla FC",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564782",
+      "utcDate": "2026-12-12T13:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "88",
+      "home": "Levante",
+      "awayId": "263",
+      "away": "Alavés",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558494",
+      "utcDate": "2026-12-12T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "104",
+      "home": "Cagliari",
+      "awayId": "454",
+      "away": "Venezia FC",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565884",
+      "utcDate": "2026-12-12T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "29",
+      "home": "SC Paderborn",
+      "awayId": "719",
+      "away": "Elversberg",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565886",
+      "utcDate": "2026-12-12T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "10",
+      "home": "Stuttgart",
+      "awayId": "28",
+      "away": "Union Berlin",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565887",
+      "utcDate": "2026-12-12T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "4",
+      "home": "Dortmund",
+      "awayId": "16",
+      "away": "Augsburg",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565890",
+      "utcDate": "2026-12-12T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "1",
+      "home": "1. FC Köln",
+      "awayId": "721",
+      "away": "RB Leipzig",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560686",
+      "utcDate": "2026-12-12T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "349",
+      "home": "Ipswich Town",
+      "awayId": "67",
+      "away": "Newcastle",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560690",
+      "utcDate": "2026-12-12T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "64",
+      "home": "Liverpool",
+      "awayId": "341",
+      "away": "Leeds United",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560691",
+      "utcDate": "2026-12-12T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "63",
+      "home": "Fulham",
+      "awayId": "402",
+      "away": "Brentford",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564784",
+      "utcDate": "2026-12-12T15:15:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "94",
+      "home": "Villarreal",
+      "awayId": "87",
+      "away": "Rayo Vallecano",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558492",
+      "utcDate": "2026-12-12T17:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "5890",
+      "home": "Lecce",
+      "awayId": "471",
+      "away": "Sassuolo",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560689",
+      "utcDate": "2026-12-12T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "65",
+      "home": "Man City",
+      "awayId": "61",
+      "away": "Chelsea",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564779",
+      "utcDate": "2026-12-12T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "84",
+      "home": "Málaga",
+      "awayId": "81",
+      "away": "Barça",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565892",
+      "utcDate": "2026-12-12T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "18",
+      "home": "M'gladbach",
+      "awayId": "19",
+      "away": "Frankfurt",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558490",
+      "utcDate": "2026-12-12T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "7397",
+      "home": "Como 1907",
+      "awayId": "103",
+      "away": "Bologna",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564785",
+      "utcDate": "2026-12-12T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "90",
+      "home": "Real Betis",
+      "awayId": "5335",
+      "away": "Santander",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558498",
+      "utcDate": "2026-12-13T11:30:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "110",
+      "home": "Lazio",
+      "awayId": "100",
+      "away": "Roma",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564787",
+      "utcDate": "2026-12-13T13:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "78",
+      "home": "Atleti",
+      "awayId": "95",
+      "away": "Valencia",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560682",
+      "utcDate": "2026-12-13T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "71",
+      "home": "Sunderland",
+      "awayId": "351",
+      "away": "Nottingham",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560685",
+      "utcDate": "2026-12-13T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "397",
+      "home": "Brighton Hove",
+      "awayId": "62",
+      "away": "Everton",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560688",
+      "utcDate": "2026-12-13T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "57",
+      "home": "Arsenal",
+      "awayId": "1044",
+      "away": "Bournemouth",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558495",
+      "utcDate": "2026-12-13T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "108",
+      "home": "Inter",
+      "awayId": "586",
+      "away": "Torino",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565889",
+      "utcDate": "2026-12-13T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "15",
+      "home": "Mainz",
+      "awayId": "17",
+      "away": "Freiburg",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564781",
+      "utcDate": "2026-12-13T15:15:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "560",
+      "home": "Deportivo",
+      "awayId": "77",
+      "away": "Athletic",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560687",
+      "utcDate": "2026-12-13T16:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "1076",
+      "home": "Coventry City",
+      "awayId": "58",
+      "away": "Aston Villa",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565891",
+      "utcDate": "2026-12-13T16:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "2",
+      "home": "Hoffenheim",
+      "awayId": "5",
+      "away": "Bayern",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558493",
+      "utcDate": "2026-12-13T17:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "112",
+      "home": "Parma",
+      "awayId": "99",
+      "away": "Fiorentina",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564786",
+      "utcDate": "2026-12-13T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "92",
+      "home": "Real Sociedad",
+      "awayId": "82",
+      "away": "Getafe",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565885",
+      "utcDate": "2026-12-13T18:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "12",
+      "home": "Bremen",
+      "awayId": "3",
+      "away": "Leverkusen",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560683",
+      "utcDate": "2026-12-13T19:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "354",
+      "home": "Crystal Palace",
+      "awayId": "66",
+      "away": "Man United",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558489",
+      "utcDate": "2026-12-13T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "113",
+      "home": "Napoli",
+      "awayId": "98",
+      "away": "Milan",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564780",
+      "utcDate": "2026-12-13T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "86",
+      "home": "Real Madrid",
+      "awayId": "79",
+      "away": "Osasuna",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558497",
+      "utcDate": "2026-12-14T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "102",
+      "home": "Atalanta",
+      "awayId": "107",
+      "away": "Genoa",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558496",
+      "utcDate": "2026-12-14T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "109",
+      "home": "Juventus",
+      "awayId": "5911",
+      "away": "Monza",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560684",
+      "utcDate": "2026-12-14T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "322",
+      "home": "Hull City",
+      "awayId": "73",
+      "away": "Tottenham",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564778",
+      "utcDate": "2026-12-14T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "80",
+      "home": "Espanyol",
+      "awayId": "558",
+      "away": "Celta",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558482",
+      "utcDate": "2026-12-18T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "470",
+      "home": "Frosinone",
+      "awayId": "110",
+      "away": "Lazio",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565894",
+      "utcDate": "2026-12-18T19:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "5",
+      "home": "Bayern",
+      "awayId": "12",
+      "away": "Bremen",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558486",
+      "utcDate": "2026-12-18T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "5890",
+      "home": "Lecce",
+      "awayId": "108",
+      "away": "Inter",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560695",
+      "utcDate": "2026-12-19T12:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "402",
+      "home": "Brentford",
+      "awayId": "67",
+      "away": "Newcastle",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558480",
+      "utcDate": "2026-12-19T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "471",
+      "home": "Sassuolo",
+      "awayId": "112",
+      "away": "Parma",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565895",
+      "utcDate": "2026-12-19T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "719",
+      "home": "Elversberg",
+      "awayId": "7",
+      "away": "HSV",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565896",
+      "utcDate": "2026-12-19T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "3",
+      "home": "Leverkusen",
+      "awayId": "19",
+      "away": "Frankfurt",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565899",
+      "utcDate": "2026-12-19T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "15",
+      "home": "Mainz",
+      "awayId": "1",
+      "away": "1. FC Köln",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565901",
+      "utcDate": "2026-12-19T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "16",
+      "home": "Augsburg",
+      "awayId": "29",
+      "away": "SC Paderborn",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560692",
+      "utcDate": "2026-12-19T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "341",
+      "home": "Leeds United",
+      "awayId": "63",
+      "away": "Fulham",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560696",
+      "utcDate": "2026-12-19T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "65",
+      "home": "Man City",
+      "awayId": "322",
+      "away": "Hull City",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560698",
+      "utcDate": "2026-12-19T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "1044",
+      "home": "Bournemouth",
+      "awayId": "1076",
+      "away": "Coventry City",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558479",
+      "utcDate": "2026-12-19T17:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "98",
+      "home": "Milan",
+      "awayId": "7397",
+      "away": "Como 1907",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560700",
+      "utcDate": "2026-12-19T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "64",
+      "home": "Liverpool",
+      "awayId": "73",
+      "away": "Tottenham",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565898",
+      "utcDate": "2026-12-19T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "721",
+      "home": "RB Leipzig",
+      "awayId": "4",
+      "away": "Dortmund",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558481",
+      "utcDate": "2026-12-19T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "100",
+      "home": "Roma",
+      "awayId": "109",
+      "away": "Juventus",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564788",
+      "utcDate": "2026-12-20T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "77",
+      "home": "Athletic",
+      "awayId": "90",
+      "away": "Real Betis",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564789",
+      "utcDate": "2026-12-20T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "82",
+      "home": "Getafe",
+      "awayId": "88",
+      "away": "Levante",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564790",
+      "utcDate": "2026-12-20T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "263",
+      "home": "Alavés",
+      "awayId": "285",
+      "away": "Elche",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564791",
+      "utcDate": "2026-12-20T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "95",
+      "home": "Valencia",
+      "awayId": "80",
+      "away": "Espanyol",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564792",
+      "utcDate": "2026-12-20T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "79",
+      "home": "Osasuna",
+      "awayId": "94",
+      "away": "Villarreal",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564793",
+      "utcDate": "2026-12-20T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "81",
+      "home": "Barça",
+      "awayId": "92",
+      "away": "Real Sociedad",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564794",
+      "utcDate": "2026-12-20T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "558",
+      "home": "Celta",
+      "awayId": "78",
+      "away": "Atleti",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564795",
+      "utcDate": "2026-12-20T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "87",
+      "home": "Rayo Vallecano",
+      "awayId": "84",
+      "away": "Málaga",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564796",
+      "utcDate": "2026-12-20T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "560",
+      "home": "Deportivo",
+      "awayId": "86",
+      "away": "Real Madrid",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "564797",
+      "utcDate": "2026-12-20T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": "Primera Division",
+      "competitionCode": "PD",
+      "type": "League",
+      "homeId": "559",
+      "home": "Sevilla FC",
+      "awayId": "5335",
+      "away": "Santander",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558484",
+      "utcDate": "2026-12-20T11:30:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "99",
+      "home": "Fiorentina",
+      "awayId": "103",
+      "away": "Bologna",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560693",
+      "utcDate": "2026-12-20T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "397",
+      "home": "Brighton Hove",
+      "awayId": "349",
+      "away": "Ipswich Town",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560694",
+      "utcDate": "2026-12-20T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "351",
+      "home": "Nottingham",
+      "awayId": "62",
+      "away": "Everton",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560697",
+      "utcDate": "2026-12-20T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "71",
+      "home": "Sunderland",
+      "awayId": "354",
+      "away": "Crystal Palace",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558487",
+      "utcDate": "2026-12-20T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "586",
+      "home": "Torino",
+      "awayId": "104",
+      "away": "Cagliari",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558488",
+      "utcDate": "2026-12-20T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "454",
+      "home": "Venezia FC",
+      "awayId": "5911",
+      "away": "Monza",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565897",
+      "utcDate": "2026-12-20T14:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "17",
+      "home": "Freiburg",
+      "awayId": "10",
+      "away": "Stuttgart",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560699",
+      "utcDate": "2026-12-20T16:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "57",
+      "home": "Arsenal",
+      "awayId": "66",
+      "away": "Man United",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565900",
+      "utcDate": "2026-12-20T16:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "28",
+      "home": "Union Berlin",
+      "awayId": "2",
+      "away": "Hoffenheim",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558485",
+      "utcDate": "2026-12-20T17:00:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "107",
+      "home": "Genoa",
+      "awayId": "115",
+      "away": "Udinese",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "565893",
+      "utcDate": "2026-12-20T18:30:00Z",
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "competitionCode": "BL1",
+      "type": "League",
+      "homeId": "6",
+      "home": "Schalke",
+      "awayId": "18",
+      "away": "M'gladbach",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "558483",
+      "utcDate": "2026-12-20T19:45:00Z",
+      "status": "TIMED",
+      "competition": "Serie A",
+      "competitionCode": "SA",
+      "type": "League",
+      "homeId": "102",
+      "home": "Atalanta",
+      "awayId": "113",
+      "away": "Napoli",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560701",
+      "utcDate": "2026-12-21T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "61",
+      "home": "Chelsea",
+      "awayId": "58",
+      "away": "Aston Villa",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560702",
+      "utcDate": "2026-12-26T12:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "58",
+      "home": "Aston Villa",
+      "awayId": "341",
+      "away": "Leeds United",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560705",
+      "utcDate": "2026-12-26T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "62",
+      "home": "Everton",
+      "awayId": "71",
+      "away": "Sunderland",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560708",
+      "utcDate": "2026-12-26T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "63",
+      "home": "Fulham",
+      "awayId": "397",
+      "away": "Brighton Hove",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560709",
+      "utcDate": "2026-12-26T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "73",
+      "home": "Tottenham",
+      "awayId": "1044",
+      "away": "Bournemouth",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560711",
+      "utcDate": "2026-12-26T15:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "349",
+      "home": "Ipswich Town",
+      "awayId": "402",
+      "away": "Brentford",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560710",
+      "utcDate": "2026-12-26T17:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "322",
+      "home": "Hull City",
+      "awayId": "64",
+      "away": "Liverpool",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560707",
+      "utcDate": "2026-12-26T20:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "67",
+      "home": "Newcastle",
+      "awayId": "65",
+      "away": "Man City",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560706",
+      "utcDate": "2026-12-27T14:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "1076",
+      "home": "Coventry City",
+      "awayId": "61",
+      "away": "Chelsea",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560703",
+      "utcDate": "2026-12-27T16:30:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "66",
+      "home": "Man United",
+      "awayId": "351",
+      "away": "Nottingham",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "560704",
+      "utcDate": "2026-12-27T19:00:00Z",
+      "status": "TIMED",
+      "competition": "Premier League",
+      "competitionCode": "PL",
+      "type": "League",
+      "homeId": "354",
+      "home": "Crystal Palace",
+      "awayId": "57",
+      "away": "Arsenal",
+      "score": {
+        "home": null,
+        "away": null
+      }
+    }
+  ]
+}

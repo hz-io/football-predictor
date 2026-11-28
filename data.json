@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-27T14:09:41.590387+00:00",
+  "updatedAt": "2026-11-28T02:14:14.710611+00:00",
   "dateRange": {
-    "from": "2026-11-24",
-    "to": "2026-12-27"
+    "from": "2026-11-25",
+    "to": "2026-12-28"
   },
   "teams": {
     "57": {
@@ -194,21 +194,21 @@
       "leagueName": "Premier League",
       "leagueRank": 8,
       "leaguePoints": 16,
-      "played": 11,
-      "gfAvg": 1.82,
-      "gaAvg": 1.82,
+      "played": 12,
+      "gfAvg": 1.83,
+      "gaAvg": 1.92,
       "last5": [
-        "W",
         "L",
         "W",
+        "L",
         "L",
         "L"
       ],
       "nextMatch": {
-        "date": "2026-11-27",
-        "opponent": "Nottingham",
+        "date": "2026-12-02",
+        "opponent": "Crystal Palace",
         "comp": "Premier League",
-        "venue": "Away"
+        "venue": "Home"
       },
       "injuries": [],
       "suspensions": []
@@ -343,12 +343,38 @@
       "injuries": [],
       "suspensions": []
     },
+    "351": {
+      "id": "351",
+      "name": "Nottingham",
+      "leagueCode": "PL",
+      "leagueName": "Premier League",
+      "leagueRank": 14,
+      "leaguePoints": 12,
+      "played": 12,
+      "gfAvg": 1.0,
+      "gaAvg": 1.42,
+      "last5": [
+        "D",
+        "L",
+        "W",
+        "L",
+        "W"
+      ],
+      "nextMatch": {
+        "date": "2026-12-02",
+        "opponent": "Hull City",
+        "comp": "Premier League",
+        "venue": "Away"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
     "1076": {
       "id": "1076",
       "name": "Coventry City",
       "leagueCode": "PL",
       "leagueName": "Premier League",
-      "leagueRank": 14,
+      "leagueRank": 15,
       "leaguePoints": 12,
       "played": 11,
       "gfAvg": 1.18,
@@ -374,7 +400,7 @@
       "name": "Fulham",
       "leagueCode": "PL",
       "leagueName": "Premier League",
-      "leagueRank": 15,
+      "leagueRank": 16,
       "leaguePoints": 11,
       "played": 11,
       "gfAvg": 1.0,
@@ -400,7 +426,7 @@
       "name": "Ipswich Town",
       "leagueCode": "PL",
       "leagueName": "Premier League",
-      "leagueRank": 16,
+      "leagueRank": 17,
       "leaguePoints": 11,
       "played": 11,
       "gfAvg": 1.36,
@@ -415,32 +441,6 @@
       "nextMatch": {
         "date": "2026-11-28",
         "opponent": "Aston Villa",
-        "comp": "Premier League",
-        "venue": "Home"
-      },
-      "injuries": [],
-      "suspensions": []
-    },
-    "351": {
-      "id": "351",
-      "name": "Nottingham",
-      "leagueCode": "PL",
-      "leagueName": "Premier League",
-      "leagueRank": 17,
-      "leaguePoints": 9,
-      "played": 11,
-      "gfAvg": 0.82,
-      "gaAvg": 1.36,
-      "last5": [
-        "L",
-        "D",
-        "L",
-        "W",
-        "L"
-      ],
-      "nextMatch": {
-        "date": "2026-11-27",
-        "opponent": "Chelsea",
         "comp": "Premier League",
         "venue": "Home"
       },
@@ -1093,7 +1093,7 @@
       "name": "Napoli",
       "leagueCode": "SA",
       "leagueName": "Serie A",
-      "leagueRank": 8,
+      "leagueRank": 9,
       "leaguePoints": 18,
       "played": 12,
       "gfAvg": 1.58,
@@ -1119,7 +1119,7 @@
       "name": "Lille",
       "leagueCode": "FL1",
       "leagueName": "Ligue 1",
-      "leagueRank": 3,
+      "leagueRank": 4,
       "leaguePoints": 21,
       "played": 11,
       "gfAvg": 1.27,
@@ -1342,12 +1342,38 @@
       "injuries": [],
       "suspensions": []
     },
+    "5335": {
+      "id": "5335",
+      "name": "Santander",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 6,
+      "leaguePoints": 20,
+      "played": 14,
+      "gfAvg": 1.64,
+      "gaAvg": 2.36,
+      "last5": [
+        "W",
+        "L",
+        "W",
+        "W",
+        "W"
+      ],
+      "nextMatch": {
+        "date": "2026-12-05",
+        "opponent": "Deportivo",
+        "comp": "Primera Division",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
     "559": {
       "id": "559",
       "name": "Sevilla FC",
       "leagueCode": "PD",
       "leagueName": "Primera Division",
-      "leagueRank": 6,
+      "leagueRank": 7,
       "leaguePoints": 19,
       "played": 13,
       "gfAvg": 1.38,
@@ -1362,32 +1388,6 @@
       "nextMatch": {
         "date": "2026-11-29",
         "opponent": "Real Sociedad",
-        "comp": "Primera Division",
-        "venue": "Away"
-      },
-      "injuries": [],
-      "suspensions": []
-    },
-    "5335": {
-      "id": "5335",
-      "name": "Santander",
-      "leagueCode": "PD",
-      "leagueName": "Primera Division",
-      "leagueRank": 7,
-      "leaguePoints": 17,
-      "played": 13,
-      "gfAvg": 1.54,
-      "gaAvg": 2.46,
-      "last5": [
-        "L",
-        "W",
-        "L",
-        "W",
-        "W"
-      ],
-      "nextMatch": {
-        "date": "2026-11-27",
-        "opponent": "Levante",
         "comp": "Primera Division",
         "venue": "Away"
       },
@@ -1557,21 +1557,21 @@
       "leagueName": "Primera Division",
       "leagueRank": 15,
       "leaguePoints": 12,
-      "played": 13,
-      "gfAvg": 1.31,
-      "gaAvg": 1.69,
+      "played": 14,
+      "gfAvg": 1.29,
+      "gaAvg": 1.79,
       "last5": [
-        "W",
         "L",
         "L",
         "D",
-        "D"
+        "D",
+        "L"
       ],
       "nextMatch": {
-        "date": "2026-11-27",
-        "opponent": "Santander",
+        "date": "2026-12-05",
+        "opponent": "Rayo Vallecano",
         "comp": "Primera Division",
-        "venue": "Home"
+        "venue": "Away"
       },
       "injuries": [],
       "suspensions": []
@@ -1764,22 +1764,22 @@
       "leagueCode": "BL1",
       "leagueName": "Bundesliga",
       "leagueRank": 6,
-      "leaguePoints": 18,
-      "played": 10,
-      "gfAvg": 2.1,
-      "gaAvg": 1.5,
+      "leaguePoints": 19,
+      "played": 11,
+      "gfAvg": 2.18,
+      "gaAvg": 1.64,
       "last5": [
-        "D",
         "W",
         "W",
         "L",
-        "W"
+        "W",
+        "D"
       ],
       "nextMatch": {
-        "date": "2026-11-27",
-        "opponent": "M'gladbach",
+        "date": "2026-12-05",
+        "opponent": "Frankfurt",
         "comp": "Bundesliga",
-        "venue": "Home"
+        "venue": "Away"
       },
       "injuries": [],
       "suspensions": []
@@ -2050,20 +2050,20 @@
       "leagueCode": "BL1",
       "leagueName": "Bundesliga",
       "leagueRank": 18,
-      "leaguePoints": 4,
-      "played": 10,
-      "gfAvg": 1.2,
-      "gaAvg": 2.6,
+      "leaguePoints": 5,
+      "played": 11,
+      "gfAvg": 1.36,
+      "gaAvg": 2.64,
       "last5": [
-        "L",
         "W",
         "D",
         "L",
-        "L"
+        "L",
+        "D"
       ],
       "nextMatch": {
-        "date": "2026-11-27",
-        "opponent": "Bremen",
+        "date": "2026-12-05",
+        "opponent": "Leverkusen",
         "comp": "Bundesliga",
         "venue": "Away"
       },
@@ -2179,23 +2179,23 @@
       "name": "Bologna",
       "leagueCode": "SA",
       "leagueName": "Serie A",
-      "leagueRank": 9,
-      "leaguePoints": 18,
-      "played": 12,
-      "gfAvg": 1.42,
-      "gaAvg": 1.25,
+      "leagueRank": 8,
+      "leaguePoints": 19,
+      "played": 13,
+      "gfAvg": 1.31,
+      "gaAvg": 1.15,
       "last5": [
         "W",
         "W",
         "W",
-        "W",
+        "D",
         "D"
       ],
       "nextMatch": {
-        "date": "2026-11-27",
-        "opponent": "Venezia FC",
+        "date": "2026-12-04",
+        "opponent": "Roma",
         "comp": "Serie A",
-        "venue": "Away"
+        "venue": "Home"
       },
       "injuries": [],
       "suspensions": []
@@ -2434,12 +2434,38 @@
       "injuries": [],
       "suspensions": []
     },
+    "454": {
+      "id": "454",
+      "name": "Venezia FC",
+      "leagueCode": "SA",
+      "leagueName": "Serie A",
+      "leagueRank": 19,
+      "leaguePoints": 7,
+      "played": 13,
+      "gfAvg": 0.62,
+      "gaAvg": 1.92,
+      "last5": [
+        "L",
+        "L",
+        "W",
+        "L",
+        "D"
+      ],
+      "nextMatch": {
+        "date": "2026-12-07",
+        "opponent": "Sassuolo",
+        "comp": "Serie A",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
     "115": {
       "id": "115",
       "name": "Udinese",
       "leagueCode": "SA",
       "leagueName": "Serie A",
-      "leagueRank": 19,
+      "leagueRank": 20,
       "leaguePoints": 6,
       "played": 12,
       "gfAvg": 1.08,
@@ -2460,32 +2486,6 @@
       "injuries": [],
       "suspensions": []
     },
-    "454": {
-      "id": "454",
-      "name": "Venezia FC",
-      "leagueCode": "SA",
-      "leagueName": "Serie A",
-      "leagueRank": 20,
-      "leaguePoints": 6,
-      "played": 12,
-      "gfAvg": 0.67,
-      "gaAvg": 2.08,
-      "last5": [
-        "L",
-        "L",
-        "L",
-        "W",
-        "L"
-      ],
-      "nextMatch": {
-        "date": "2026-11-27",
-        "opponent": "Bologna",
-        "comp": "Serie A",
-        "venue": "Home"
-      },
-      "injuries": [],
-      "suspensions": []
-    },
     "1045": {
       "id": "1045",
       "name": "Paris FC",
@@ -2493,19 +2493,45 @@
       "leagueName": "Ligue 1",
       "leagueRank": 2,
       "leaguePoints": 23,
-      "played": 11,
-      "gfAvg": 1.91,
-      "gaAvg": 0.91,
+      "played": 12,
+      "gfAvg": 1.75,
+      "gaAvg": 0.92,
       "last5": [
-        "W",
         "L",
+        "W",
+        "W",
+        "W",
+        "L"
+      ],
+      "nextMatch": {
+        "date": "2026-12-05",
+        "opponent": "Le Mans",
+        "comp": "Ligue 1",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
+    "512": {
+      "id": "512",
+      "name": "Brest",
+      "leagueCode": "FL1",
+      "leagueName": "Ligue 1",
+      "leagueRank": 3,
+      "leaguePoints": 21,
+      "played": 12,
+      "gfAvg": 1.67,
+      "gaAvg": 1.0,
+      "last5": [
+        "L",
+        "W",
         "W",
         "W",
         "W"
       ],
       "nextMatch": {
-        "date": "2026-11-27",
-        "opponent": "Brest",
+        "date": "2026-12-06",
+        "opponent": "Stade Rennais",
         "comp": "Ligue 1",
         "venue": "Away"
       },
@@ -2517,7 +2543,7 @@
       "name": "Olympique Lyon",
       "leagueCode": "FL1",
       "leagueName": "Ligue 1",
-      "leagueRank": 4,
+      "leagueRank": 5,
       "leaguePoints": 20,
       "played": 11,
       "gfAvg": 1.45,
@@ -2543,7 +2569,7 @@
       "name": "Marseille",
       "leagueCode": "FL1",
       "leagueName": "Ligue 1",
-      "leagueRank": 5,
+      "leagueRank": 6,
       "leaguePoints": 18,
       "played": 11,
       "gfAvg": 2.18,
@@ -2560,32 +2586,6 @@
         "opponent": "Auxerre",
         "comp": "Ligue 1",
         "venue": "Away"
-      },
-      "injuries": [],
-      "suspensions": []
-    },
-    "512": {
-      "id": "512",
-      "name": "Brest",
-      "leagueCode": "FL1",
-      "leagueName": "Ligue 1",
-      "leagueRank": 6,
-      "leaguePoints": 18,
-      "played": 11,
-      "gfAvg": 1.73,
-      "gaAvg": 1.09,
-      "last5": [
-        "D",
-        "L",
-        "W",
-        "W",
-        "W"
-      ],
-      "nextMatch": {
-        "date": "2026-11-27",
-        "opponent": "Paris FC",
-        "comp": "Ligue 1",
-        "venue": "Home"
       },
       "injuries": [],
       "suspensions": []
@@ -2879,150 +2879,6 @@
   },
   "matches": [
     {
-      "id": "575395",
-      "utcDate": "2026-11-24T17:45:00Z",
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "competitionCode": "CL",
-      "type": "Cup",
-      "homeId": "610",
-      "home": "Galatasaray",
-      "awayId": "58",
-      "away": "Aston Villa",
-      "score": {
-        "home": 1,
-        "away": 0
-      }
-    },
-    {
-      "id": "575396",
-      "utcDate": "2026-11-24T17:45:00Z",
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "competitionCode": "CL",
-      "type": "Cup",
-      "homeId": "5721",
-      "home": "Bodø/Glimt",
-      "awayId": "2016",
-      "away": "LASK",
-      "score": {
-        "home": 1,
-        "away": 0
-      }
-    },
-    {
-      "id": "575397",
-      "utcDate": "2026-11-24T20:00:00Z",
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "competitionCode": "CL",
-      "type": "Cup",
-      "homeId": "86",
-      "home": "Real Madrid",
-      "awayId": "674",
-      "away": "PSV",
-      "score": {
-        "home": 5,
-        "away": 1
-      }
-    },
-    {
-      "id": "575398",
-      "utcDate": "2026-11-24T20:00:00Z",
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "competitionCode": "CL",
-      "type": "Cup",
-      "homeId": "65",
-      "home": "Man City",
-      "awayId": "113",
-      "away": "Napoli",
-      "score": {
-        "home": 2,
-        "away": 2
-      }
-    },
-    {
-      "id": "575399",
-      "utcDate": "2026-11-24T20:00:00Z",
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "competitionCode": "CL",
-      "type": "Cup",
-      "homeId": "57",
-      "home": "Arsenal",
-      "awayId": "4",
-      "away": "Dortmund",
-      "score": {
-        "home": 1,
-        "away": 1
-      }
-    },
-    {
-      "id": "575400",
-      "utcDate": "2026-11-24T20:00:00Z",
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "competitionCode": "CL",
-      "type": "Cup",
-      "homeId": "675",
-      "home": "Feyenoord",
-      "awayId": "503",
-      "away": "Porto",
-      "score": {
-        "home": 0,
-        "away": 1
-      }
-    },
-    {
-      "id": "575401",
-      "utcDate": "2026-11-24T20:00:00Z",
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "competitionCode": "CL",
-      "type": "Cup",
-      "homeId": "7509",
-      "home": "Sl. Bratislava",
-      "awayId": "90",
-      "away": "Real Betis",
-      "score": {
-        "home": 0,
-        "away": 2
-      }
-    },
-    {
-      "id": "575402",
-      "utcDate": "2026-11-24T20:00:00Z",
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "competitionCode": "CL",
-      "type": "Cup",
-      "homeId": "721",
-      "home": "RB Leipzig",
-      "awayId": "546",
-      "away": "RC Lens",
-      "score": {
-        "home": 3,
-        "away": 1
-      }
-    },
-    {
-      "id": "575403",
-      "utcDate": "2026-11-24T20:00:00Z",
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "competitionCode": "CL",
-      "type": "Cup",
-      "homeId": "7397",
-      "home": "Como 1907",
-      "awayId": "1899",
-      "away": "PAE AEK",
-      "score": {
-        "home": 1,
-        "away": 0
-      }
-    },
-    {
       "id": "575404",
       "utcDate": "2026-11-25T17:45:00Z",
       "status": "FINISHED",
@@ -3169,7 +3025,7 @@
     {
       "id": "565869",
       "utcDate": "2026-11-27T19:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": "Bundesliga",
       "competitionCode": "BL1",
       "type": "League",
@@ -3178,14 +3034,14 @@
       "awayId": "18",
       "away": "M'gladbach",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 3
       }
     },
     {
       "id": "558515",
       "utcDate": "2026-11-27T19:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": "Serie A",
       "competitionCode": "SA",
       "type": "League",
@@ -3194,14 +3050,14 @@
       "awayId": "103",
       "away": "Bologna",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
       "id": "559616",
       "utcDate": "2026-11-27T19:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": "Ligue 1",
       "competitionCode": "FL1",
       "type": "League",
@@ -3210,14 +3066,14 @@
       "awayId": "1045",
       "away": "Paris FC",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       }
     },
     {
       "id": "560658",
       "utcDate": "2026-11-27T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": "Premier League",
       "competitionCode": "PL",
       "type": "League",
@@ -3226,14 +3082,14 @@
       "awayId": "61",
       "away": "Chelsea",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       }
     },
     {
       "id": "564765",
       "utcDate": "2026-11-27T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": "Primera Division",
       "competitionCode": "PD",
       "type": "League",
@@ -3242,8 +3098,8 @@
       "awayId": "5335",
       "away": "Santander",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 3
       }
     },
     {

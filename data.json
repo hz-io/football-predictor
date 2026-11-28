@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T02:14:14.710611+00:00",
+  "updatedAt": "2026-11-28T13:53:57.945516+00:00",
   "dateRange": {
     "from": "2026-11-25",
     "to": "2026-12-28"
@@ -635,10 +635,10 @@
       "leagueCode": "PD",
       "leagueName": "Primera Division",
       "leagueRank": 4,
-      "leaguePoints": 27,
-      "played": 13,
-      "gfAvg": 1.62,
-      "gaAvg": 1.23,
+      "leaguePoints": 28,
+      "played": 14,
+      "gfAvg": 1.5,
+      "gaAvg": 1.14,
       "last5": [
         "W",
         "L",
@@ -647,10 +647,10 @@
         "W"
       ],
       "nextMatch": {
-        "date": "2026-11-28",
-        "opponent": "Rayo Vallecano",
+        "date": "2026-12-06",
+        "opponent": "Atleti",
         "comp": "Primera Division",
-        "venue": "Home"
+        "venue": "Away"
       },
       "injuries": [],
       "suspensions": []
@@ -1550,12 +1550,38 @@
       "injuries": [],
       "suspensions": []
     },
+    "87": {
+      "id": "87",
+      "name": "Rayo Vallecano",
+      "leagueCode": "PD",
+      "leagueName": "Primera Division",
+      "leagueRank": 15,
+      "leaguePoints": 13,
+      "played": 13,
+      "gfAvg": 1.15,
+      "gaAvg": 1.69,
+      "last5": [
+        "D",
+        "L",
+        "W",
+        "L",
+        "L"
+      ],
+      "nextMatch": {
+        "date": "2026-12-05",
+        "opponent": "Levante",
+        "comp": "Primera Division",
+        "venue": "Home"
+      },
+      "injuries": [],
+      "suspensions": []
+    },
     "88": {
       "id": "88",
       "name": "Levante",
       "leagueCode": "PD",
       "leagueName": "Primera Division",
-      "leagueRank": 15,
+      "leagueRank": 16,
       "leaguePoints": 12,
       "played": 14,
       "gfAvg": 1.29,
@@ -1570,32 +1596,6 @@
       "nextMatch": {
         "date": "2026-12-05",
         "opponent": "Rayo Vallecano",
-        "comp": "Primera Division",
-        "venue": "Away"
-      },
-      "injuries": [],
-      "suspensions": []
-    },
-    "87": {
-      "id": "87",
-      "name": "Rayo Vallecano",
-      "leagueCode": "PD",
-      "leagueName": "Primera Division",
-      "leagueRank": 16,
-      "leaguePoints": 12,
-      "played": 12,
-      "gfAvg": 1.25,
-      "gaAvg": 1.83,
-      "last5": [
-        "D",
-        "L",
-        "W",
-        "L",
-        "L"
-      ],
-      "nextMatch": {
-        "date": "2026-11-28",
-        "opponent": "Real Betis",
         "comp": "Primera Division",
         "venue": "Away"
       },
@@ -3105,7 +3105,7 @@
     {
       "id": "564760",
       "utcDate": "2026-11-28T13:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primera Division",
       "competitionCode": "PD",
       "type": "League",
@@ -3114,8 +3114,8 @@
       "awayId": "87",
       "away": "Rayo Vallecano",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
